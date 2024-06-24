@@ -1,0 +1,72 @@
+URL                                   :
+  E_ORDERING                          : https://sit.scgpordering.com/
+  outlook                             : https://outlook.office.com/mail/
+  
+GLOBAL_TIMEOUT                        : 150s
+
+TIME_SLEEP                            : 
+  S                                   : 2s
+  M                                   : 3s
+  L                                   : 5s
+  XL                                  : 15s
+  XXL                                 : 60s
+  XXXL                                : 180s
+  XXXXL                               : 300s
+
+DATABASES                             :
+  DB_API_MODULE_NAME                  : psycopg2
+  DB_NAME                             : scgp_eordering_sit_db
+  DB_USER                             : scgpeorderingadm
+  DB_PASS                             : AOovPeoLAqUl
+  DB_HOST                             : scgp-eordering-dev-backend-rds.clooujpvgwpn.ap-southeast-1.rds.amazonaws.com
+  DB_PORT                             : 5432
+  SSH_HOST                            : 54.254.5.227
+  SSH_USERNAME                        : ec2-user
+  SSH_KEY_FILE                        : scgp-eordering-dev-keypair.pem
+  SSH_PORT                            : 22
+  SSH_LOCAL_HOST                      : 127.0.0.1
+  SSH_LOCAL_PORT                      : 9191
+  APPLICATION_ID                      : 86129b2d-5864-428b-95c3-00a424e4dcf4
+  SECRET_KEY                          : 2059a6a1-c2df-4de8-8430-cf42178adfef   
+  GRANT_TYPE                          : password
+  GDC_ENDPOINT_DEV                    : https://scgp-gdc-api-dev.azurewebsites.net/
+  GDC_SUB_DOMAIN_GET_TOKEN            : api/token
+  GDC_OTHER_ENDPOINT_DEV              : https://scgp-gdc-apiother-dev.azurewebsites.net/
+  GDC_OTHER_SUB_DOMAIN_AD_USER        : Api/GDCEmployeeInfo/EmployeeInfoByADUser 
+
+API                                   :
+  MULESOFT                            :
+    URL                               : https://mulesoft-dev.scg-wedo.tech
+    HEADERS                           :
+      CONTENT-TYPE                    : application/json
+      CLIENTID                        : f97e640b86cc4544b7c4b592756423ab
+      CLIENTSECRET                    : 445F954A0Dfb47C7957e5A3A2f7edc1b
+    PI_MESSAGE_ID                     : "246304750449704358618058414974402735106"
+    ES14                              :
+      URI                             : /exp_eordering/api/v1/contracts/
+    ES13                              :
+      URI                             : /exp_eordering/api/v1/contracts/search
+      SALEORG_1                       : "0750"
+      SALEORG_2                       : "7540"
+      DOC_TYPE                        : "ZCQ"
+    YT-65218                          :
+      URI                             : /exp_eordering/api/v1/sales/available-to-promise/order-statuses
+  EO_UPLOAD                           :
+    URL                               : https://api-sit.scgpordering.com/api
+    TOKEN                             : -KaPdSgVkYp3s6v9y$B&E)H+MbQeThWmZq4t7w!z%C*F-JaNcRfUjXn2r5u8x/A?
+    LP01                              :
+      URI                             : /eo-upload
+    LP03                              :
+      URI                             : /get-eo-number?
+
+EO_UPLOAD                             :
+  EO_COUNT                            : 20
+  EXPECTED_STATE                      :
+    RECEIVED_ORDER                    : ReceivedOrder
+    FAILED_ORDER                      : Error
+  EMAIL                               :
+    FAILED_EMAIL                      :
+      HEADER                          : "[Create EO] Failed"
+      SOURCE_OF_ERROR                 :
+        IPLAN_FAILED                  : IPlan
+        SAP_FAILED                    : SAP

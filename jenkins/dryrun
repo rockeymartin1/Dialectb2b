@@ -1,0 +1,34 @@
+pipeline {
+    agent { label 'mac_server_01-CICD'}
+    stages {
+        stage('dryrun') {
+            steps {
+                script {
+                    common = load "./jenkins/common/doppio_ci_common.groovy"
+                }
+                // echo 'Run dryrun'
+                catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                    sh "pabot --pabotlib --processes 5 --dryrun -v env:sit -v headless:TRUE --outputdir testResult ./testcases"
+                }
+            }
+            post {
+                always {
+                echo "Publish Robot Framework test results"
+                robot logFileName: 'log.html', outputFileName: 'output.xml', outputPath: './testResult', reportFileName: 'report.html'
+                }
+                success {
+                    script{
+                        echo "success"
+                        common.send_success_result_to_pr()
+                    }
+                }
+                failure {
+                    script{
+                        echo "fail"
+                        common.send_faild_result_to_pr()
+                    }
+                }
+            }
+        }
+    }
+}

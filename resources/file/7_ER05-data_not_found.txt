@@ -1,0 +1,2 @@
+Huat_test_v1                        40000000x 1011222   0001011223                                                          Text to Logistics                                                     Production Information                                                
+Iuat_test_v1                        10    Z02CA-125D0930117N                                                         1             ROL01092030Remark item 1                                                         

@@ -1,0 +1,7 @@
+robotframework==5.0.1
+robotframework-databaselibrary==1.2.4
+robotframework-jsonlibrary
+robotframework-requests==0.9.3
+robotframework-seleniumlibrary==6.0.0
+robotframework-sshlibrary==3.8.1rc1
+robotframework-debuglibrary

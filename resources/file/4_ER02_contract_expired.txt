@@ -1,0 +1,2 @@
+Huat_test_v1                        041008575500010030470001003464       00010030470001003047CFRอ.เมืองนนทบุรี จ.กรุงเทพฯ   Text to Logistics                                                     Production Information                                                
+Iuat_test_v1                        10    Z02ES-080D1020102N                                                         1             ROL11092030Remark for production Memo1                                           

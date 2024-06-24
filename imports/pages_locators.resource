@@ -1,0 +1,36 @@
+*** Settings ***
+Resource    ${CURDIR}${/}..${/}page_locators${/}outlook${/}outlook_login_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}outlook${/}outlook_inbox_locator.resource
+
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}common_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}customer_create_order_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}domestic_create_order_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}login_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}search_customer_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}select_product_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}navigator_left_bar_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}navigator_top_bar_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}shopping_cart_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}my_contract_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}dashboard_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}save_draft_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}processing_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}preview_order_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}edit_order_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}change_order_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}search_page_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}add_to_cart_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}create_order_EO_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}order_details_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}contract_details_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}add_new_items_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}list_of_sale_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}po_upload_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}inquiry_order_confirmation_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}inquiry_stock_on_hand_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}search_order_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}pending_order_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}stock_on_hand_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}delivery_report_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}pending_order_tracking_locator.resource
+Resource    ${CURDIR}${/}..${/}page_locators${/}eordering${/}dialect_page_locator.resource

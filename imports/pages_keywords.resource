@@ -1,0 +1,40 @@
+*** Settings ***
+## API
+Resource        ${CURDIR}${/}..${/}keywords${/}eordering${/}api${/}es_14_api.resource
+
+## UI
+Resource    ${CURDIR}${/}..${/}keywords${/}outlook${/}pages${/}outlook_login_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}outlook${/}pages${/}outlook_inbox_page.resource
+
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}login_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}search_customer_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}select_product_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}navigator_left_bar_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}navigator_top_bar_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}shopping_cart_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}customer_create_order_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}domestic_create_order_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}my_contract_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}dashboard_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}save_draft_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}processing_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}preview_order_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}edit_order_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}change_order_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}search_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}add_to_cart_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}create_order_EO_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}order_details_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}contract_details_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}add_new_items_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}list_of_sale_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}eo_upload_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}po_upload_page.resource
+Resource    ${CURDIR}${/}..${/}Keywords${/}eordering${/}pages${/}inquiry_order_confirmation_page.resource
+Resource    ${CURDIR}${/}..${/}Keywords${/}eordering${/}pages${/}inquiry_stock_on_hand_page.resource
+Resource    ${CURDIR}${/}..${/}Keywords${/}eordering${/}pages${/}search_order_page.resource
+Resource    ${CURDIR}${/}..${/}Keywords${/}eordering${/}pages${/}pending_order_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}stock_on_hand_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}delivery_report_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}pending_order_tracking_page.resource
+Resource    ${CURDIR}${/}..${/}keywords${/}eordering${/}pages${/}dialect_page.resource

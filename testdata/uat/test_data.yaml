@@ -1,0 +1,2697 @@
+dom_0001:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    sold_to: "0001003199"
+    contract: "0410089763"
+    bu_label: "PP"
+    company_label: "SIAM KRAFT"
+    sold_to_party: "บจก. รวมไทยบรรจุภัณฑ์"
+    grade_code: "Z02CA-125D"
+    material_code: "Z02KA-335D2090117N"
+    product_1: KA-ConfiDenz335D-209 DIA117N
+    product_2: CA- 105M-93 DIA110N
+    product_3:  CA- 125D
+    sub_product_3_1: CA- 125D-93 / 36 INCH DIA117N
+    sub_product_3_2: CA- 125D-103 / 40 INCH DIA117N
+    sub_product_3_3: CA- 125D-108 / 42 INCH DIA117N
+    product_quantity: 1
+    product_new_quantity: 2
+    po_no: "DOM_004"
+    header:
+        internal_comments_to_warehouse: header_internalCommentsToWarehouse
+        internal_comments_to_logistic: header_internalCommentsToLogistic
+        external_comments_to_customer: header_externalCommentsToCustomer
+        product_information: header_productInformation
+    item_details:
+        internal_comments_to_warehouse: item_details_internalCommentsToWarehouse
+        external_comments_to_customer: item_details_externalCommentsToCustomer
+    expected_product_on_cart: "5"
+    product_1_item_no: '10'
+    product_2_item_no: '20'
+    product_3_item_no: '30'
+    product_4_item_no: '40'
+    product_5_item_no: '50'
+    product_6_item_no: '60'
+    product_7_item_no: '70'
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02KA-335D2090117N'
+            material_desc: 'KA-ConfiDenz335D-209 DIA117N'
+            quantity: '2'
+        item_no_20:
+            item_no: '20'
+            material_code: 'Z02CA-105M0930110N'
+            material_desc: 'CA- 105M-93 DIA110N'
+            quantity: '2'
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02CA-125D0930117N'
+            material_desc: 'CA- 125D-93 / 36 INCH DIA117N'
+            quantity: '2'
+        item_no_40:
+            item_no: '40'
+            material_code: 'Z02CA-125D1030117N'
+            material_desc: 'CA- 125D-103 / 40 INCH DIA117N'
+            quantity: '2'
+        item_no_50:
+            item_no: '50'
+            material_code: 'Z02KA-335D2090117N'
+            material_desc: 'KA-ConfiDenz335D-209 DIA117N'
+            quantity: '2'
+    new_product:
+        item_no_50:
+            item_no: '50'
+            material_code: 'Z02KA-335D2090117N'
+            material_desc: 'KA-ConfiDenz335D-209 DIA117N'
+            quantity: '2'
+        item_no_60:
+            item_no: '60'
+            material_code: 'Z02CA-105M0930110N'
+            material_desc: 'CA- 105M-93 DIA110N'
+            quantity: '2'
+    plant_1: '7561'
+    plant_2: '7531'
+
+dom_0004:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    sold_to: "0001003199"
+    contract: "0410089763"
+    sold_to_party: "0001003199 - บจก. กลุ่มสยามบรรจุภัณฑ์-TCCB"
+    product_1: KA-ConfiDenz335D-209 DIA117N
+    product_2: CA- 105M-93 DIA110N
+    product_3:  CA- 125D
+    sub_product_3_1: CA- 125D-93 / 36 INCH DIA117N
+    sub_product_3_2: CA- 125D-103 / 40 INCH DIA117N
+    sub_product_3_3: CA- 125D-108 / 42 INCH DIA117N
+    product_quantity: 1
+    po_no: "UAT_DOM"
+    header:
+        internal_comments_to_warehouse: header_internalCommentsToWarehouse
+        internal_comments_to_logistic: header_internalCommentsToLogistic
+        external_comments_to_customer: header_externalCommentsToCustomer
+        product_information: header_productInformation
+    item_details:
+        internal_comments_to_warehouse: item_details_internalCommentsToWarehouse
+        external_comments_to_customer: item_details_externalCommentsToCustomer
+    expected_product_on_cart: "5"
+    material_code: Z02CA-125D1080117N
+    invoice_no: 00011
+    dp_no: 0012
+    company: 0750 - SKIC Bangsue
+    sale_group: All
+    order_type: ZBV
+    order_status: Open / Being Process
+    product_1_item_no: '10'
+    product_2_item_no: '20'
+    product_3_item_no: '30'
+    product_4_item_no: '40'
+    product_5_item_no: '50'
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02KA-335D2090117N'
+            material_desc: 'KA-ConfiDenz335D-209 DIA117N'
+            quantity: '1'
+        item_no_20:
+            item_no: '20'
+            material_code: 'Z02CA-105M0930110N'
+            material_desc: 'CA- 105M-93 DIA110N'
+            quantity: '1'
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02CA-125D0930117N'
+            material_desc: 'CA- 125D-93 / 36 INCH DIA117N'
+            quantity: '1'
+        item_no_40:
+            item_no: '40'
+            material_code: 'Z02CA-125D1030117N'
+            material_desc: 'CA- 125D-103 / 40 INCH DIA117N'
+            quantity: '1'
+        item_no_50:
+            item_no: '50'
+            material_code: 'Z02CA-125D1080117N'
+            material_desc: 'CA- 125D-108 / 42 INCH DIA117N'
+            quantity: '1'
+    po_no_2: "at_dom_006"
+    product_new_quantity: '2'
+    header_update:
+        internal_comments_to_warehouse: header_update_internalCommentsToWarehouse
+        internal_comments_to_logistic: header_update_internalCommentsToLogistic
+        external_comments_to_customer: header_update_externalCommentsToCustomer
+        product_information: header_update_productInformation
+
+dom_0005:
+    username: at_domestic05@test.com
+    password: P@ssword2023
+    sold_to: "0001003199"
+    contract: "0410089763"
+    sold_to_party: "0001003199 - บจก. กลุ่มสยามบรรจุภัณฑ์-TCCB"
+    product_1: "CA- 125D"
+    sub_product_1_1: CA- 125D-93 / 36 INCH DIA117N
+    sub_product_1_2: CA- 125D-103 / 40 INCH DIA117N
+    sub_product_1_3: CA- 125D-108 / 42 INCH DIA117N
+    sub_product_1_quantity: 4
+    sub_product_1_new_quantity: 6
+    po_no: "at_dom_005"
+    expected_product_on_cart: "3"
+    product_1_item_no: '10'
+    product_2_item_no: '20'
+    product_3_item_no: '30'
+    split_product_item_no: '40'
+    split_product_material_code: 'Z02CA-125D0930117N'
+    split_product_status : 'Full Committed Order'
+    split_product_quantiy : 1
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02CA-125D0930117N'
+            material_desc: 'CA- 125D-93 / 36 INCH DIA117N'
+            quantity: '4'
+        item_no_20:
+            item_no: '20'
+            material_code: 'Z02CA-125D1030117N'
+            material_desc: 'CA- 125D-103 / 40 INCH DIA117N'
+            quantity: '4'
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02CA-125D1080117N'
+            material_desc: 'CA- 125D-108 / 42 INCH DIA117N'
+            quantity: '4'
+    split_quantity: '1'
+    product_2: "CA- 125D"
+    sub_product_2_1: CA- 125D-93 / 36 INCH DIA117N
+    sub_product_2_2: CA- 125D-103 / 40 INCH DIA117N
+    sub_product_2_3: CA- 125D-108 / 42 INCH DIA117N
+    sub_product_2_quantity: '3'
+    new_product:
+        item_no_50:
+            item_no: '50'
+            material_code: 'Z02CA-125D0930117N'
+            material_desc: 'CA- 125D-93 / 36 INCH DIA117N'
+            quantity: '3'
+        item_no_60:
+            item_no: '60'
+            material_code: 'Z02CA-125D1030117N'
+            material_desc: 'CA- 125D-103 / 40 INCH DIA117N'
+            quantity: '3'
+        item_no_70:
+            item_no: '70'
+            material_code: 'Z02CA-125D1080117N'
+            material_desc: 'CA- 125D-108 / 42 INCH DIA117N'
+            quantity: '3'
+    send_email:
+        to: eor_automate01@outlook.com
+        cc: paper_temp3@scg.com
+        message: dom_005
+        subject: Order Confirmation บจก. รวมไทยบรรจุภัณฑ์
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+    po_no_2: "at_dom_006"
+    internal_comments_to_warehouse: internalCommentsToWarehouse
+    internal_comments_to_logistic: internalCommentsToLogistic
+    external_comments_to_customer: externalCommentsToCustomer
+    product_information: productInformation
+
+dom_0006:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    sold_to: "0001003199"
+    contract: "0410089732"
+    sold_to_party: "0001003199 - บจก. กลุ่มสยามบรรจุภัณฑ์-TCCB"
+    ship_to_party: '0001012421'
+    product_1: 'CA- 105M-93 DIA110N'
+    product_2: 'CA- 125D'
+    sub_product_2_1: CA- 125D-93 / 36 INCH DIA117N
+    product_3: 'KS- 170D'
+    sub_product_3_1: KS- 170D-98 / 38 INCH DIA117 N
+    sub_product_3_2: KS- 170D-103 / 40 INCH DIA117 N
+    sub_product_3_3: KS- 170D-108 / 42 INCH DIA117 N
+    sub_product_3_4: KS- 170D-113 / 44 INCH DIA117 N
+    sub_product_3_5: KS- 170D-118 / 46 INCH DIA117 N
+    sub_product_3_6: KS- 170D-123 / 48 INCH DIA117 N
+    sub_product_3_7: KS- 170D-128 / 50 INCH DIA117 N
+    product_quantity: '3'
+    product_increased_quantity: '4'
+    product_decreased_quantity: '1'
+    po_no: "at_dom_006"
+    expected_product_on_cart: "9"
+    product_1_item_no: '10'
+    product_2_item_no: '20'
+    product_3_item_no: '30'
+    product_4_item_no: '40'
+    product_5_item_no: '50'
+    product_6_item_no: '60'
+    product_7_item_no: '70'
+    product_8_item_no: '80'
+    product_9_item_no: '90'
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02CA-105M0930110N'
+            material_desc: 'CA- 105M-93 DIA110N'
+            quantity: '3'
+        item_no_20:
+            item_no: '20'
+            material_code: 'Z02CA-125D0930117N'
+            material_desc: 'CA- 125D-93 / 36 INCH DIA117N'
+            quantity: '3'
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02KS-170D0980117N'
+            material_desc: 'KS- 170D-98 / 38 INCH DIA117 N'
+            quantity: '3'
+        item_no_40:
+            item_no: '40'
+            material_code: 'Z02KS-170D1030117N'
+            material_desc: 'KS- 170D-103 / 40 INCH DIA117 N'
+            quantity: '3'
+        item_no_50:
+            item_no: '50'
+            material_code: 'Z02KS-170D1080117N'
+            material_desc: 'KS- 170D-108 / 42 INCH DIA117 N'
+            quantity: '3'
+        item_no_60:
+            item_no: '60'
+            material_code: 'Z02KS-170D1130117N'
+            material_desc: 'KS- 170D-113 / 44 INCH DIA117 N'
+            quantity: '3'
+        item_no_70:
+            item_no: '70'
+            material_code: 'Z02KS-170D1180117N'
+            material_desc: 'KS- 170D-118 / 46 INCH DIA117 N'
+            quantity: '3'
+        item_no_80:
+            item_no: '80'
+            material_code: 'Z02KS-170D1230117N'
+            material_desc: 'KS- 170D-123 / 48 INCH DIA117 N'
+            quantity: '3'
+        item_no_90:
+            item_no: '90'
+            material_code: 'Z02KS-170D1280117N'
+            material_desc: 'KS- 170D-128 / 50 INCH DIA117 N'
+            quantity: '3'
+    split_quantity: '1'
+    po_no_2: "up_dom_006"
+    incoterms: 'CF1, CFR LT'
+    header:
+        internal_comments_to_warehouse: 'internalCommentsToWarehouse'
+        internal_comments_to_logistic: 'internalCommentsToLogistic'
+        external_comments_to_customer: 'externalCommentsToCustomer'
+        product_information: 'productInformation'
+    customer_group:
+        customer_group_1: 'Split Invoice - DP'
+        customer_group_2: 'Show batch in DP ROL'
+        customer_group_3: 'ส่งให้ลูกค้า'
+        customer_group_4: 'โอนTPC-กรุงเทพ-อารี'
+    re_atp:
+        status:
+            status_1: 'Not Assigned'
+            status_2: 'Partially Assigned'
+            status_3: 'Fully Assigned'
+        quantity:
+            quantity_1: '0'
+            quantity_2: '2'
+            quantity_3: '3'
+    operation_status_1: 'Allocated'
+    operation_status_2: 'Unallocated'
+    operation_status_3: 'Closed Run'
+    operation_status_4: 'Trimmed'
+    operation_status_5: 'In Production'
+    operation_status_6: 'Completed'
+    warehouse_code: 'PO41'
+    order_type: 'CTP'
+    unit: 'ROL'
+
+dom_0008:
+    username: at_domestic08@test.com
+    password: P@ssword2023
+    po_no: UATdomtest
+    so_no: "0411100319"
+    sold_to_1: "0001003199"
+    sold_to_2: "0001011222"
+    sold_to_3: "0001007518"
+    sold_to_4: "0001010844"
+    sold_to_5: "0001002976"
+    sold_to_6: "0001002813"
+    sold_to_7: "0001002967"
+    sold_to_8: "0001028363"
+    sold_to_9: "0001002813"
+    sold_to_10: "0001002984"
+    create_date:
+        start_date:
+            date: "12/07/2023"
+            day: "12"
+            month: "07"
+            year: "2023"
+        end_date:
+            date: "10/10/2023"
+            day: "10"
+            month: "10"
+            year: "2023"
+    create_date_2:
+        start_date:
+            date: "1/09/2023"
+            day: "1"
+            month: "09"
+            year: "2023"
+        end_date:
+            date: "1/10/2023"
+            day: "1"
+            month: "10"
+            year: "2023"
+    material_no: Z02CA-105M0930110N
+    create_date_3:
+        start_date:
+            date: "12/07/2023"
+            day: "12"
+            month: "07"
+            year: "2023"
+        end_date:
+            date: "10/10/2023"
+            day: "10"
+            month: "10"
+            year: "2023"
+    list_of_sale:
+        excel_name: sales_of_order.xlsx
+
+dom_0012:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    material_no: 'Z02CA-125D0980117N'
+    po_no: 'at_dom_12'
+    sold_to: "0001003199"
+    contract: "0410089763"
+    product_1 : 'CA- 125D'
+    sub_product_1_1 : "CA- 125D-98 / 38 INCH DIA117 N"
+    product_quantity: 1
+    expected_product_on_cart: '1'
+    product_1_item_no: '10'
+    plant: '7521'
+    consignment : '1007518'
+    consignment_customer: "1007518 - บจก. ไทยเคนบอร์ด"
+    consignment_plant: '7521 - โรงงานบ้านโป่ง'
+    consignment_code : '0001007518 - บจก. ไทยเคนบอร์ด'
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02CA-125D0980117N'
+            material_desc: 'CA- 125D-98 / 38 INCH DIA117 N'
+            quantity: '1'
+
+dom_0013:
+    username: csdomestic_user01@test.com
+    password: P@ssw0rd
+    material_no: 'Z02CA-125D0980117N'
+    po_no: 'at_dom_13'
+    sold_to: "0001003199"
+    contract: "0410089763"
+    product_1 : 'CA- 125D'
+    sub_product_1_1 : "CA- 125D-98 / 38 INCH DIA117 N"
+    product_quantity: 1
+    expected_product_on_cart: '1'
+    product_1_item_no: '10'
+    plant: '7521'
+    consignment : '751'
+    consignment_code : '751 - CB-North and East'
+    consignment_plant: '7521 - โรงงานบ้านโป่ง'
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02CA-125D0980117N'
+            material_desc: 'CA- 125D-98 / 38 INCH DIA117 N'
+            quantity: '1'
+
+dom_0014:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    material_no: 'Z02CA-125D0980117N'
+    po_no: 'at_dom_12'
+    sold_to: "0001003199"
+    contract: "0410089763"
+    product_1 : 'CA- 125D'
+    sub_product_1_1 : "CA- 125D-98 / 38 INCH DIA117 N"
+    product_quantity: 1
+    expected_product_on_cart: '1'
+    product_1_item_no: '10'
+    plant: '7521'
+    consignment : '1007518'
+    consignment_customer: "1007518 - บจก. ไทยเคนบอร์ด"
+    consignment_plant: '7521 - โรงงานบ้านโป่ง'
+    consignment_code : '0001007518 - บจก. ไทยเคนบอร์ด'
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02CA-125D0980117N'
+            material_desc: 'CA- 125D-98 / 38 INCH DIA117 N'
+            quantity: '1'
+
+dom_0015:
+    username: csdomestic_user01@test.com
+    password: P@ssw0rd
+    material_no: 'Z02CA-125D0980117N'
+    po_no: 'at_dom_15'
+    sold_to: "0001003199"
+    contract: "0410089763"
+    product_1 : 'CA- 125D'
+    sub_product_1_1 : "CA- 125D-98 / 38 INCH DIA117 N"
+    product_quantity: 1
+    expected_product_on_cart: '1'
+    product_1_item_no: '10'
+    plant: '7521'
+    consignment : '751'
+    consignment_code : '751 - CB-North and East'
+    consignment_plant: '7521 - โรงงานบ้านโป่ง'
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02CA-125D0980117N'
+            material_desc: 'CA- 125D-98 / 38 INCH DIA117 N'
+            quantity: '1'
+
+dom_0016:
+    username: at_domestic05@test.com
+    password: P@ssword2023
+    sold_to: "0001003199"
+    contract: "0410089763"
+    sold_to_party: "0001003199 - บจก. กลุ่มสยามบรรจุภัณฑ์-TCCB"
+    product_1: "CA- 125D"
+    sub_product_1_1: CA- 125D-108 / 42 INCH DIA117N
+    sub_product_1_2: CA- 125D-113 / 44 INCH DIA117 N
+    sub_product_1_3: CA- 125D-118 / 46 INCH DIA117N
+    sub_product_1_quantity: "1"
+    po_no: "at_mark"
+    expected_product_on_cart: "3"
+    product_1_item_no: '10'
+    product_2_item_no: '20'
+    product_3_item_no: '30'
+    product_4_item_no: '40'
+    product_5_item_no: '50'
+    product_6_item_no: '60'
+    request_date_change_reason : C3-Logistic
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02CA-125D1080117N'
+            material_desc: 'CA- 125D-108 / 42 INCH DIA117N'
+            quantity: '1'
+        item_no_20:
+            item_no: '20'
+            material_code: 'Z02CA-125D1130117N'
+            material_desc: 'CA- 125D-113 / 44 INCH DIA117 N'
+            quantity: '1'
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02CA-125D1180117N'
+            material_desc: 'CA- 125D-118 / 46 INCH DIA117N'
+            quantity: '1'
+        item_no_40:
+            item_no: '40'
+            material_code: 'Z02CA-125D1080117N'
+            material_desc: 'CA- 125D-108 / 42 INCH DIA117N'
+            quantity: '1'
+        item_no_50:
+            item_no: '50'
+            material_code: 'Z02CA-125D1130117N'
+            material_desc: 'CA- 125D-113 / 44 INCH DIA117 N'
+            quantity: '1'
+        item_no_60:
+            item_no: '60'
+            material_code: 'Z02CA-125D1180117N'
+            material_desc: 'CA- 125D-118 / 46 INCH DIA117N'
+            quantity: '1'
+    change_request_date:
+        reason_1:
+            class_mark: None
+            request_date_change_reason: None
+        reason_2:
+            class_mark: C3
+            request_date_change_reason: C3-Logistics
+        reason_3:
+            class_mark: C4
+            request_date_change_reason: C4-Customer
+
+cus_0017:
+    username: at_customer01@test.com
+    password: P@ssword2023
+    company_name : บจก. รวมไทยบรรจุภัณฑ์
+    po_no: "for_cus_17"
+    so_no: "0411100647"
+    sold_to: "0001003199 - บจก. รวมไทยบรรจุภัณฑ์"
+    material_no: "Z02CA-105M0930110N"
+    create_date:
+        start_date:
+            date: "01/11/2023"
+            day: "01"
+            month : "11"
+            year : "2023"
+        end_date:
+            date: "20/11/2023"
+            day: "20"
+            month: "11"
+            year: "2023"
+    status_1: พร้อมส่ง
+    status_2: รอผลิต
+    status_3: ยกเลิก
+    status_4: All
+    order_confirmation:
+        pdf_name : OrderConfirmation_{so_no}_{current_date}.pdf
+    role: "Customer"
+
+exp_0001:
+    username: at_export01@test.com
+    password: P@ssword2023
+    pi_no: "0427960260"
+    po_no: "SO 046-18G"
+    product_1: Z02KSF170T1100117N      
+    quantity_product_1: 99999
+    new_quantity_product_1: 1
+    plant_1: 9999
+    product_2: Z02COU115E1090123N
+    quantity_product_2: 1
+    plant_2: 7533
+    product_3: Z02_CONTAINER40'H
+    quantity_product_3: 1
+    new_quantity_product_3: 2
+    po_no: "SO 046-18G"
+    place_of_delivery: PORT KLANG
+    port_of_discharge: port
+    port_of_loading: "ANY THAILAND PORTS AT THE SELLER'S OPTION"
+    request_date: "01 / 05 / 2024"
+    request_date_2: "01/05/2024"
+    request_day: 01
+    request_month: 05
+    request_year: 2024
+    etd_date: "31 / 12 / 2023"
+    etd_day: 31
+    etd_month: 12
+    etd_year: 2023
+    eta_date: "09 / 10 / 2024"
+    eta_day: 9
+    eta_month: 10
+    eta_year: 2024
+    item_no: '10'
+    error_code: '10101110000011'
+    error_message: "Failure, parameter invalid or not specified FixSourceAssignment."
+    plant: PO41
+
+PH2_0002:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    sold_to: "0001003071"
+    contract: "0410089990"
+    sold_to_party: "บจก. เกตุแก้วเปเปอร์ บ๊อกซ์"
+    product_1: RCP185D-101x121 W+RRK
+    product_2: RCPL230D-102x122 L20+W+RRK
+    product_3: RCP450D-101x121 W+RRK
+    product_4: RCP450D-70.5x90.5 RRK
+    product_quantity: 1.234
+    po_no: "at_dom_00X"
+    header:
+        internal_comments_to_warehouse: header_internalCommentsToWarehouse
+        internal_comments_to_logistic: header_internalCommentsToLogistic
+        external_comments_to_customer: header_externalCommentsToCustomer
+        product_information: header_productInformation
+    item_details:
+        internal_comments_to_warehouse: item_details_internalCommentsToWarehouse
+        external_comments_to_customer: item_details_externalCommentsToCustomer
+    expected_product_on_cart: "4"
+    material_code: Z02RAPCD0009
+    invoice_no: 00011
+    dp_no: 0012
+    company: 0750 - SKIC Bangsue
+    sale_group: All
+    order_type: ZOR
+    order_status: Open / Being Process
+    product_1_item_no: '10'
+    product_2_item_no: '20'
+    product_3_item_no: '30'
+    product_4_item_no: '40'
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02RAPCD0009'
+            material_desc: 'RCP185D-101x121 W+RRK'
+            quantity: '1.234'
+        item_no_20:
+            item_no: '20'
+            material_code: 'Z02RAPCD0010'
+            material_desc: 'RCPL230D-102x122 L20+W+RRK'
+            quantity: '1.234'
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02RAPCD0011'
+            material_desc: 'RCP450D-101x121 W+RRK'
+            quantity: '1.234'
+        item_no_40:
+            item_no: '40'
+            material_code: 'Z02RASPBD0001'
+            material_desc: 'RCP450D-70.5x90.5 RRK'
+            quantity: '1.234'
+    po_no_2: "ph202_copy"
+    product_quantity: '1.234'
+    header_update:
+        internal_comments_to_warehouse: header_update_internalCommentsToWarehouse
+        internal_comments_to_logistic: header_update_internalCommentsToLogistic
+        external_comments_to_customer: header_update_externalCommentsToCustomer
+        product_information: header_update_productInformation
+
+        
+    
+exp_0002:
+    username: at_export02@test.com
+    password: P@ssword2023
+    sold_to: "0001003710"
+    error_message_1: "Customer Block"
+    pi_no: "0410250149"
+    error_message_2: "Customer รายนี้ถูก Block ไม่สามารถสร้างคำสั่งซื้อได้"
+
+exp_0003:
+    username: at_export03@test.com
+    password: P@ssword2023
+    sold_to: "0001031042"
+    error_message_1: "Customer Block"
+    pi_no: "0410264339"
+    error_message_2: "Customer รายนี้ถูก Block ไม่สามารถสร้างคำสั่งซื้อได้"
+    po_no: "OCT Prod KS170"
+
+exp_0006:
+    username: 'at_export06@test.com'
+    password: 'P@ssword2023'
+    sold_to: '0427960260'
+    pi_no: "0427960260"
+    po_no: "SO 046-18G"
+    po_no_2: "automate"
+    product_1: 'Z02KSF170T1100117N'
+    product_2: 'Z02COU115E1090123N'
+    product_3: 'Z02KP-275E1000127N'
+    product_4: 'Z02KSF170T1100117N'
+    product_5: "Z02_CONTAINER40'H"
+    product_6: 'Z02COU115E1090123N'
+    plant_1: '7533'
+    plant_2: 'PO41'
+    port_of_discharge: 'port'
+    product_quantity: '1'
+    inquiry_method: 'ASAP (Clear stock)'
+    default_inquiry_method: 'Export'
+    eta_date: "09 / 10 / 2029"
+    eta_day: 9
+    eta_month: 10
+    eta_year: 2029
+    item_no_1: '10'
+    item_no_2: '20'
+    item_no_3: '30'
+    item_no_4: '40'
+    item_no_5: '50'
+    item_no_6: '60'
+    new_product:
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02KP-275E1000127N'
+            material_desc: 'KP- 275E-100 DIA127 N'
+            quantity: '1'
+        item_no_40:
+            item_no: '40'
+            material_code: 'Z02KSF170T1100117N'
+            material_desc: 'KSF170T-110 FSC MIX70% SGS-COC-011513'
+            quantity: '1'
+        item_no_50:
+            item_no: '50'
+            material_code: "Z02_CONTAINER40'H"
+            material_desc: "CONTAINER 40'H"
+            quantity: '1'
+        item_no_60:
+            item_no: '60'
+            material_code: 'Z02COU115E1090123N'
+            material_desc: 'COU 115E-109 DIA123N'
+            quantity: '1'
+
+exp_0008:
+    username: 'at_export08@test.com'
+    password: 'P@ssword2023'
+    sold_to: '0427960260'
+    pi_no: "0427960260"
+    po_no: "SO 046-18G"
+    po_no_2: "automate"
+    product_1: 'Z02KSF170T1100117N'
+    product_2: 'Z02COU115E1090123N'
+    product_3: 'Z02KP-275E1000127N'
+    product_4: 'Z02KSF170T1100117N'
+    product_5: "Z02_CONTAINER40'H"
+    product_6: 'Z02COU115E1090123N'
+    plant_1: '7533'
+    plant_2: 'PO41'
+    port_of_discharge: 'port'
+    product_quantity: '1'
+    inquiry_method: 'ASAP (Clear stock)'
+    default_inquiry_method: 'Export'
+    eta_date: "09 / 10 / 2024"
+    eta_day: 9
+    eta_month: 10
+    eta_year: 2024
+    item_no_1: '10'
+    item_no_2: '20'
+    item_no_3: '30'
+    item_no_4: '40'
+    item_no_5: '50'
+    item_no_6: '60'
+    new_product:
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02KP-275E1000127N'
+            material_desc: 'KP- 275E-100 DIA127 N'
+            quantity: '1'
+        item_no_40:
+            item_no: '40'
+            material_code: 'Z02KSF170T1100117N'
+            material_desc: 'KSF170T-110 FSC MIX70% SGS-COC-011513'
+            quantity: '1'
+        item_no_50:
+            item_no: '50'
+            material_code: "Z02_CONTAINER40'H"
+            material_desc: "CONTAINER 40'H"
+            quantity: '1'
+        item_no_60:
+            item_no: '60'
+            material_code: 'Z02COU115E1090123N'
+            material_desc: 'COU 115E-109 DIA123N'
+            quantity: '1'
+
+exp_0015:
+    username: at_export01@test.com
+    password: P@ssword2023
+    user_type: Export
+    po_no: SO 046-18G
+    so_no: "0411099528"
+    sold_to_1: "0001006931"
+    sold_to_2: "0001003575"
+    sold_to_3: "0001003560"
+    sold_to_4: "0001003543"
+    sold_to_5: "0001003643"
+    sold_to_6: "0001003632"
+    sold_to_7: "0001003644"
+    sold_to_8: "0001003533"
+    sold_to_9: "0001003622"
+    sold_to_10: "0001003411"
+    create_date:
+        start_date:
+            date: "23/06/2023"
+            day: "23"
+            month: "06"
+            year: "2023"
+        end_date:
+            date: "21/09/2023"
+            day: "21"
+            month: "09"
+            year: "2023"
+    create_date_2:
+        start_date:
+            date: "23/06/2023"
+            day: "23"
+            month: "06"
+            year: "2023"
+        end_date:
+            date: "21/09/2023"
+            day: "21"
+            month: "09"
+            year: "2023"
+    material_no: "Z02KSF170T1100117N"
+    create_date_3:
+        start_date:
+            date: "23/06/2023"
+            day: "23"
+            month: "06"
+            year: "2023"
+        end_date:
+            date: "21/09/2023"
+            day: "21"
+            month: "09"
+            year: "2023"
+    create_date_4:
+        start_date:
+            date: "23/06/2023"
+            day: "23"
+            month: "06"
+            year: "2023"
+        end_date:
+            date: "21/09/2023"
+            day: "21"
+            month: "09"
+            year: "2023"
+    list_of_sale:
+        excel_name: sales_of_order.xlsx
+
+cus_0011:
+    username: at_customer01@test.com
+    password: P@ssword2023
+    po_upload_error_message_line_1: "รองรับไฟล์สกุล .txt เท่านั้น,"
+    po_upload_error_message_line_2: "กรุณาลองใหม่อีกครั้ง"
+
+cus_0012:
+    username: at_customer01@test.com
+    password: P@ssword2023
+    company_th_1: "บจก. รวมไทยบรรจุภัณฑ์"
+    popup_status_message_1: "Invalid Ship to code"
+    popup_status_message_2: "Invalid Ship to code, Duplicate PO No. in file"
+    popup_status_message_3: "Duplicate PO"
+    company_th_2: "บจก. แอคทู-ลั่ม"
+    popup_status_message_4: "Contract ดังกล่าวได้หมดอายุแล้ว"
+    company_th_3: "บจ.ไทยโพลิเอททีลีน"
+    popup_status_message_5: "Contract ดังกล่าวยังไม่ได้รับการอนุมัติ"
+    company_th_4: "บจก. กลุ่มสยามบรรจุภัณฑ์-TCCB"
+    popup_status_message_6: "สินค้านี้ได้ถูกนำมาสร้างใบสั่งซื้อโดยอ้างอิงจาก Contract จนครบแล้ว"
+    popup_status_message_7: "ไม่พบ Contract ดังกล่าวในระบบ"
+    popup_header_text: "การอัพโหลดไฟล์ไม่สำเร็จ"
+
+cus_0014:
+    username: at_customer01@test.com
+    password: P@ssword2023
+    admin_username: csadmin_01@test.com
+    admin_password: P@ssw0rd
+    customer_id: "0001011222"
+    customer: "0001011222 บจก. กลุ่มสยามบรรจุภัณฑ์-TCCB"
+    master_status:  "Inactive"
+
+cus_0015:
+    username: at_customer01@test.com
+    password: P@ssword2023
+    company_no: 0001003199
+    company_th_1: "บจก. รวมไทยบรรจุภัณฑ์"
+    po_no: Automate
+    so_no: "0411099383"
+    bu: PP
+    company: All
+    create_date:
+        start_date:
+            date: "01/07/2023"
+            day: "01"
+            month: "07"
+            year: "2023"
+        end_date:
+            date: "29/09/2023"
+            day: "29"
+            month: "09"
+            year: "2023"
+    grade_gram: Z02CA-105M0930110N
+    pdf_name: order.pdf
+
+cus_0016:
+    username: at_customer01@test.com
+    password: P@ssword2023
+    company_no: 0001003199
+    company_th_1: "บจก. รวมไทยบรรจุภัณฑ์"
+    sold_to: "0001003199 - บจก. รวมไทยบรรจุภัณฑ์"
+    sales: "ALL"
+    product_group: "ALL"
+    po_no: at_dom_005
+    so_no: "0411100616"
+    material_no: "Z02CA-125D0930117N"
+    create_date:
+        start_date:
+            date: "05/08/2023"
+            day: "05"
+            month : "08"
+            year : "2023"
+        end_date:
+            date: "02/11/2023"
+            day: "02"
+            month: "11"
+            year: "2023"
+    create_date_1:
+        start_date:
+            date: "05/08/2023"
+            day: "05"
+            month : "08"
+            year : "2023"
+        end_date:
+            date: "02/11/2023"
+            day: "02"
+            month: "11"
+            year: "2023"
+    pdf_download_file: pending_order_report.pdf
+    excel_download_file: Pending_Order_Report
+
+ph2_0008:
+    username: at_customer10@test.com
+    password: P@ssword2023
+    company_no_1: "0001003071"
+    company_th_1: "บจก. เกตุแก้วเปเปอร์ บ๊อกซ์"
+    sold_to_1: "0001003071 - บจก. เกตุแก้วเปเปอร์ บ๊อกซ์"
+    company_no_2: "0001003147"
+    company_th_2: "บจก. จระเข้ คอร์ปอเรชั่น"
+    sold_to_2: "0001003147 - บจก. จระเข้ คอร์ปอเรชั่น"
+    company_no_3: "0001009407"
+    company_th_3: "บจก. แมชเทค อินเตอร์เนชั่นแนล"
+    sold_to_3: "0001009407 - บจก. แมชเทค อินเตอร์เนชั่นแนล"
+    sales: "ALL"
+    product_group_1: "K02"
+    product_group_2: "K04"
+    product_group_3: "K06"
+    po_no_1: "20112023"
+    so_no: "0411101378"
+    po_no_2: "PO1002"
+    po_no_3: "k060611231"
+    unit_1: "RM"
+    unit_2: "BAG"
+    unit_3: "TON"
+    create_date:
+        start_date:
+            date: "01/09/2023"
+            day: "01"
+            month : "09"
+            year : "2023"
+        end_date:
+            date: "30/11/2023"
+            day: "30"
+            month: "11"
+            year: "2023"
+            
+    pdf_download_file: pending_order_report.pdf
+    excel_download_file: Pending_Order_Report
+
+ph2_0009:
+    username: at_customer10@test.com
+    password: P@ssword2023
+    company_no_1: "0001003071"
+    company_th_1: "บจก. เกตุแก้วเปเปอร์ บ๊อกซ์"
+    sold_to_1: "0001003071 - บจก. เกตุแก้วเปเปอร์ บ๊อกซ์"
+    company_no_2: "0001003147"
+    company_th_2: "บจก. จระเข้ คอร์ปอเรชั่น"
+    sold_to_2: "0001003147 - บจก. จระเข้ คอร์ปอเรชั่น"
+    company_no_3: "0001009407"
+    company_th_3: "บจก. แมชเทค อินเตอร์เนชั่นแนล"
+    sold_to_3: "0001009407 - บจก. แมชเทค อินเตอร์เนชั่นแนล"
+    sales: "ALL"
+    product_group_1: "K02: Ream"
+    product_group_2: "K04: Bag"
+    product_group_3: "K06: Slit"
+    po_no_1: "20112023"
+    so_no: "0411101378"
+    create_date:
+        start_date:
+            date: "01/09/2023"
+            day: "01"
+            month : "09"
+            year : "2023"
+        end_date:
+            date: "30/11/2023"
+            day: "30"
+            month: "11"
+            year: "2023"
+            
+    pdf_download_file: order_confirmation_report.pdf
+    attachment_file: OrderConfirmation
+            
+ph2_0010:
+    username: at_domestic05@test.com
+    password: P@ssword2023
+    sold_to: "0001003147"
+    contract: "0410090000"
+    sold_to_party: "0001003147 - บจก. กลุ่มสยามบรรจุภัณฑ์-TCCB"
+    product_1: PVTI Cornice 37x13x51 EWB80+ES95+P+ES80
+    product_2: PVTI Cornice 37x13x51 EWB85+ES95+P+ES80
+    product_3: PVTI Cornice 37x13x51 EWB90+ES95+P+ES80
+    product_quantity: "1"
+    po_no: "at_ph2_010"
+    expected_product_on_cart: "3"
+    product_1_item_no: '10'
+    product_2_item_no: '20'
+    product_3_item_no: '30'
+    product_4_item_no: '40'
+    product_5_item_no: '50'
+    product_6_item_no: '60'
+    request_date_change_reason : C3-Logistic
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02BMWIBBAPLSE0003'
+            material_desc: 'PVTI Cornice 37x13x51 EWB80+ES95+P+ES80'
+            quantity: '1'
+        item_no_20:
+            item_no: '20'
+            material_code: 'Z02BMWIBBAPLSE0004'
+            material_desc: 'PVTI Cornice 37x13x51 EWB85+ES95+P+ES80'
+            quantity: '1'
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02BMWIBBAPLSE0005'
+            material_desc: 'PVTI Cornice 37x13x51 EWB90+ES95+P+ES80'
+            quantity: '1'
+        item_no_40:
+            item_no: '40'
+            material_code: 'Z02BMWIBBAPLSE0003'
+            material_desc: 'PVTI Cornice 37x13x51 EWB80+ES95+P+ES80'
+            quantity: '1'
+        item_no_50:
+            item_no: '50'
+            material_code: 'Z02BMWIBBAPLSE0004'
+            material_desc: 'PVTI Cornice 37x13x51 EWB85+ES95+P+ES80'
+            quantity: '1'
+        item_no_60:
+            item_no: '60'
+            material_code: 'Z02BMWIBBAPLSE0005'
+            material_desc: 'PVTI Cornice 37x13x51 EWB90+ES95+P+ES80'
+            quantity: '1'
+    change_request_date:
+        reason_1:
+            class_mark: None
+            request_date_change_reason: None
+        reason_2:
+            class_mark: C3
+            request_date_change_reason: C3-Logistics
+        reason_3:
+            class_mark: C4
+            request_date_change_reason: C4-Customer
+
+ph2_0011:
+    account_1:
+        username: at_domestic01@test.com
+        password: P@ssword2023
+        display_name: "Automate Test01"
+    account_2:
+        username: at_domestic02@test.com
+        password: P@ssword2023
+        display_name: "Automate Test02"
+    sold_to: "0001003071"
+    contract: "0410089990"
+    sold_to_party: "0001003071 - บจก. เกตุแก้วเปเปอร์ บ๊อกซ์"
+    product_1: RCP185D-101x121 W+RRK
+    product_2: RCPL230D-102x122 L20+W+RRK
+    product_3: RCP450D-101x121 W+RRK
+    product_quantity: 1
+    product_new_quantity: '2'
+    expected_product_on_cart: "3"
+    po_no: "at_ph2_011"
+    product_1_item_no: '10'
+    product_2_item_no: '20'
+    product_3_item_no: '30'
+    order_status: "Cancelled (93)"
+    remark: "remark_ph2_0011"
+    error:
+        message_1: "Please contact admin to maintain SAP ID in e-Ordering system"
+        message_2: "Please Maintain E-mail Sender for send PDF File"
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02RAPCD0009'
+            material_desc: 'RCP185D-101x121 W+RRK'
+            quantity: '1'
+        item_no_20:
+            item_no: '20'
+            material_code: 'Z02RAPCD0010'
+            material_desc: 'RCPL230D-102x122 L20+W+RRK'
+            quantity: '1'
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02RAPCD0011'
+            material_desc: 'RCP450D-101x121 W+RRK'
+            quantity: '1'
+    create_date:
+        start_date:
+            date: "01/09/2023"
+            day: "01"
+            month : "09"
+            year : "2023"
+        end_date:
+            date: "30/11/2023"
+            day: "30"
+            month: "11"
+            year: "2023"
+
+ph2_0012:
+    account_1:
+        username: at_domestic01@test.com
+        password: P@ssword2023
+        display_name: "Automate Test01"
+    account_2:
+        username: at_domestic03@test.com
+        password: P@ssword2023
+        display_name: "Automate Test03"
+    sold_to: "0001003071"
+    contract: "0410089966"
+    sold_to_party: "0001003071 - บจก. เกตุแก้วเปเปอร์ บ๊อกซ์"
+    product_1: RCP450D-65x81 NP
+    product_2: RCP450D-70.5x90.5 NP
+    product_quantity: 1
+    product_new_quantity: '2'
+    expected_product_on_cart: "2"
+    po_no: "at_ph2_012"
+    so_no: "0411100709"
+    product_1_item_no: '10'
+    product_2_item_no: '20'
+    product_3_item_no: '30'
+    order_status: "Cancelled (93)"
+    error:
+        message_1: "Please Maintain E-mail Sender for send PDF File"
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02RPSPD0005'
+            material_desc: 'RCP450D-65x81 NP'
+            quantity: '1'
+        item_no_20:
+            item_no: '20'
+            material_code: 'Z02RPSPD0006'
+            material_desc: 'RCP450D-70.5x90.5 NP'
+            quantity: '1'
+
+dom_0002:
+    username: at_domestic15@test.com
+    password: P@ssword2023
+    sold_to: "0001022117"
+    contract: "0412283637"
+
+dom_0003:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    sold_to: "0001003438"
+    block status: "Z1"
+
+dom_0009:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    sold_to: "0001003199"
+    company_no : 0001003199
+    company_name: บจก. รวมไทยบรรจุภัณฑ์
+    sales: "ALL"
+    product_group: "ALL"
+    po_no: UAT_DOM_002_01
+    so_no: "0411100229"
+    material_no: "Z02CA-185D1030117N"
+    create_date:
+        start_date:
+            date: "03/08/2023"
+            day: "03"
+            month : "08"
+            year : "2023"
+        end_date:
+            date: "31/10/2023"
+            day: "31"
+            month: "10"
+            year: "2023"
+    sold_1: "0001003199"
+    sold_2: "0001011222"
+    sold_3: "0001007518"
+    sold_4: "0001010844"
+    sold_5: "0001002813"
+    sold_6: "0001002967"
+    sold_7: "0001012221"
+    sold_8: "0000001222"
+    sold_9: "0001002878"
+    sold_10: "0000000781"
+    create_date_1:
+        start_date:
+            date: "01/10/2023"
+            day: "01"
+            month : "10"
+            year : "2023"
+        end_date:
+            date: "30/10/2023"
+            day: "30"
+            month: "10"
+            year: "2023"
+    send_email:
+        to: eor_automate01@outlook.com
+        cc: paper_temp5@scg.com
+        message: Pending order list
+        subject: Pending order list บจก. เอชเอสแอล คาร์ตอนส์
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+    pdf_download_file: pending_order_report.pdf
+    excel_download_file: Pending_Order_Report
+
+dom_0010:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    so_no: "0411100229"
+    po_no: "UAT_DOM_002_01"
+    sold_to: "0001003199"
+    material_no: "Z02CA-185D1030117N"
+    create_date:
+        start_date:
+            date: "03/08/2023"
+            day: "03"
+            month : "08"
+            year : "2023"
+        end_date:
+            date: "31/10/2023"
+            day: "31"
+            month: "10"
+            year: "2023"
+    sold_1: "0001003199"
+    sold_2: "0001011222"
+    sold_3: "0001007518"
+    sold_4: "0001010844"
+    sold_5: "0001002813"
+    sold_6: "0001002967"
+    sold_7: "0001012221"
+    sold_8: "0000001222"
+    sold_9: "0001002878"
+    sold_10: "0000000781"
+    create_date_1:
+        start_date:
+            date: "01/10/2023"
+            day: "01"
+            month : "10"
+            year : "2023"
+        end_date:
+            date: "30/10/2023"
+            day: "30"
+            month: "10"
+            year: "2023"
+    status_1: พร้อมส่ง
+    status_2: รอผลิต
+    status_3: ยกเลิก
+    status_4: All
+    expected_count: 1
+    send_email:
+        to: eor_automate01@outlook.com
+        cc: paper_temp4@scg.com, paper_temp7@scg.com
+        message: Order Confirmation
+        subject: Order Confirmation บจก. รวมไทยบรรจุภัณฑ์
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+    attachment_file: OrderConfirmation
+    
+dom_0011:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    material_no: Z02CA-125D0930117N
+    plant: PO41 - คลังปราจีนบุรี
+    
+PH2_0001:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    sold_to: "0001003071"
+    contract: "0410089990"
+    bu_label: "PP"
+    company_label: "SIAM KRAFT"
+    sold_to_party: "บจก. เกตุแก้วเปเปอร์ บ๊อกซ์"
+    grade_code: "Z02CA-090D"
+    material_code: "Z02RAPCD0009"
+    product_1: RCP185D-101x121 W+RRK
+    product_2: RCPL230D-102x122 L20+W+RRK
+    product_3: RCP450D-101x121 W+RRK
+    product_4: RCP450D-70.5x90.5 RRK
+    product_5: RKS170D-123x89 RRK
+    product_6: RSB110D-89x119 RRK
+    product_quantity: 1.234
+    product_new_quantity: 2.567
+    expected_product_on_cart: "4"
+    po_no: "at_dom_00X"
+    header:
+        internal_comments_to_warehouse: header_internalCommentsToWarehouse
+        internal_comments_to_logistic: header_internalCommentsToLogistic
+        external_comments_to_customer: header_externalCommentsToCustomer
+        product_information: header_productInformation
+    item_details:
+        internal_comments_to_warehouse: item_details_internalCommentsToWarehouse
+        external_comments_to_customer: item_details_externalCommentsToCustomer
+    product_1_item_no: '10'
+    product_2_item_no: '20'
+    product_3_item_no: '30'
+    product_4_item_no: '31'
+    product_5_item_no: '40'
+    product_6_item_no: '50'
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02RAPCD0009'
+            material_desc: 'RCP185D-101x121 W+RRK'
+            quantity: '2.567'
+        item_no_20:
+            item_no: '20'
+            material_code: 'Z02RAPCD0010'
+            material_desc: 'RCPL230D-102x122 L20+W+RRK'
+            quantity: '2.567'
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02RAPCD0011'
+            material_desc: 'RCP450D-101x121 W+RRK'
+            quantity: '2.567'
+        item_no_31:
+            item_no: '31'
+            material_code: 'Z02RAPCD0009'
+            material_desc: 'RCP450D-70.5x90.5 RRK'
+            quantity: '2.567'
+        item_no_40:
+            item_no: '40'
+            material_code: 'Z02RFMD0015'
+            material_desc: 'RKS170D-123x89 RRK'
+            quantity: '1.234'
+    new_product:
+        item_no_40:
+            item_no: '40'
+            material_code: 'Z02RFMD0015'
+            material_desc: 'RKS170D-123x89 RRK'
+            quantity: '1.234'
+        item_no_50:
+            item_no: '50'
+            material_code: 'Z02RAPCD0009'
+            material_desc: 'RSB110D-89x119 RRK'
+            quantity: '1.234'
+    plant_1: '7524'
+
+ph2_0003:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    sold_to: "0001003071"
+    contract: "0410089990"
+    bu_label: "PP"
+    company_label: "SIAM KRAFT"
+    sold_to_party: "บจก. เกตุแก้วเปเปอร์ บ๊อกซ์"
+    grade_code: "Z02CA-090D"
+    material_code: "Z02RAPCD0009"
+    product_1: RCP185D-101x121 W+RRK
+    product_2: RCPL230D-102x122 L20+W+RRK
+    product_3: RCP450D-101x121 W+RRK
+    product_4: RCP450D-70.5x90.5 RRK
+    product_5: RKS170D-123x89 RRK
+    product_6: RSB110D-89x119 RRK
+    product_quantity: 1.234
+    product_new_quantity: '2'
+    expected_product_on_cart: "3"
+    po_no: "at_ph2_003"
+    product_1_item_no: '10'
+    product_2_item_no: '20'
+    product_3_item_no: '30'
+    product_4_item_no: '40'
+    product_5_item_no: '50'
+    product_6_item_no: '60'
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02RAPCD0009'
+            material_desc: 'RCP185D-101x121 W+RRK'
+            quantity: '1.234'
+        item_no_20:
+            item_no: '20'
+            material_code: 'Z02RAPCD0010'
+            material_desc: 'RCPL230D-102x122 L20+W+RRK'
+            quantity: '1.234'
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02RAPCD0011'
+            material_desc: 'RCP450D-101x121 W+RRK'
+            quantity: '1.234'
+    new_product:
+        item_no_40:
+            item_no: '40'
+            material_code: 'Z02RASPBD0001'
+            material_desc: 'RCP450D-70.5x90.5 RRK'
+            quantity: '2'
+        item_no_50:
+            item_no: '50'
+            material_code: 'Z02RFMD0015'
+            material_desc: 'RKS170D-123x89 RRK'
+            quantity: '2'
+        item_no_60:
+            item_no: '60'
+            material_code: 'Z02RFMD0016'
+            material_desc: 'RSB110D-89x119 RRK'
+            quantity: '2'
+    po_no_2: "at_ph2_03"
+    send_email:
+        to: eor_automate01@outlook.com
+        cc: paper_temp3@scg.com
+        message: ph2_0003
+        subject: Order Confirmation บจก. เกตุแก้วเปเปอร์ บ๊อกซ์ 
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+    internal_comments_to_warehouse: internalCommentsToWarehouse
+    internal_comments_to_logistic: internalCommentsToLogistic
+    external_comments_to_customer: externalCommentsToCustomer
+    product_information: productInformation
+    
+ph2_0004:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    sold_to: "0001003147"
+    contract: "0410090000"
+    product_1: PVTI Cornice 37x13x51 EWB80+ES95+P+ES80
+    product_2: PVTI Cornice 37x13x51 EWB85+ES95+P+ES80
+    product_3: PVTI Cornice 37x13x51 EWB90+ES95+P+ES80
+    product_quantity: 4
+    product_new_quantity: "3"
+    product_update_quantity: "2"
+    po_no: "at_ph2_004"
+    expected_product_on_cart: "3"
+    product_1_item_no: '10'
+    product_2_item_no: '20'
+    product_3_item_no: '30'
+    split_product_item_no: '40'
+    split_product_material_code: 'Z02BMWIBBAPLSE0003'
+    split_product_status : 'Item Created'
+    split_product_quantiy : 1
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: 'Z02BMWIBBAPLSE0003'
+            material_desc: 'PVTI Cornice 37x13x51 EWB80+ES95+P+ES80'
+            quantity: '4'
+        item_no_20:
+            item_no: '20'
+            material_code: 'Z02BMWIBBAPLSE0004'
+            material_desc: 'PVTI Cornice 37x13x51 EWB85+ES95+P+ES80'
+            quantity: '4'
+        item_no_30:
+            item_no: '30'
+            material_code: 'Z02BMWIBBAPLSE0005'
+            material_desc: 'PVTI Cornice 37x13x51 EWB90+ES95+P+ES80'
+            quantity: '4'
+    new_product:
+        item_no_50:
+            item_no: '50'
+            material_code: 'Z02BMWIBBAPLSE0003'
+            material_desc: 'PVTI Cornice 37x13x51 EWB80+ES95+P+ES80'
+            quantity: '3'
+        item_no_60:
+            item_no: '60'
+            material_code: 'Z02BMWIBBAPLSE0004'
+            material_desc: 'PVTI Cornice 37x13x51 EWB85+ES95+P+ES80'
+            quantity: '3'
+        item_no_70:
+            item_no: '70'
+            material_code: 'Z02BMWIBBAPLSE0005'
+            material_desc: 'PVTI Cornice 37x13x51 EWB90+ES95+P+ES80'
+            quantity: '3'
+    send_email:
+        to: eor_automate01@outlook.com
+        cc: paper_temp3@scg.com
+        message: ph2_0004
+        subject: Order Confirmation บจก. จระเข้ คอร์ปอเรชั่น
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+    po_no_2: "at_ph2_04"
+    internal_comments_to_warehouse: internalCommentsToWarehouse
+    internal_comments_to_logistic: internalCommentsToLogistic
+    external_comments_to_customer: externalCommentsToCustomer
+    product_information: productInformation
+
+ph2_0005:
+    username: at_domestic08@test.com
+    password: P@ssword2023
+    po_no: "20112023"
+    so_no: "0411101378"
+    sold_to: "0001003147"
+    sold_to_1: "0001003199"
+    sold_to_2: "0001011222"
+    sold_to_3: "0001007518"
+    sold_to_4: "0001010844"
+    sold_to_5: "0001002976"
+    sold_to_6: "0001002813"
+    sold_to_7: "0001002967"
+    sold_to_8: "0001009407"
+    sold_to_9: "0001003147"
+    sold_to_10: "0001003071"
+    product_group_1: "K02: Ream"
+    product_group_2: "K04: Bag"
+    product_group_3: "K06: Slit"
+    create_date:
+        start_date:
+            date: "01/09/2023"
+            day: "01"
+            month: "09"
+            year: "2023"
+        end_date:
+            date: "30/11/2023"
+            day: "30"
+            month: "11"
+            year: "2023"
+    create_date_2:
+        start_date:
+            date: "31/10/2023"
+            day: "31"
+            month: "10"
+            year: "2023"
+        end_date:
+            date: "30/11/2023"
+            day: "30"
+            month: "11"
+            year: "2023"
+    list_of_sale:
+        excel_name: sales_of_order.xlsx
+
+PH2_0006:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    sold_to: "0001003147"
+    sales: "ALL"
+    product_group: "K02: Ream"
+    product_group_1: "K04: Bag"
+    product_group_2: "K06: Slit"
+    po_no: "20112023"
+    so_no: "0411101378"
+    company_no: "0001003071"
+    company_name: "บจก. เกตุแก้วเปเปอร์ บ๊อกซ์"
+    company_no_1: "0001003147"
+    company_name_1: "บจก. จระเข้ คอร์ปอเรชั่น"
+    create_date:
+        start_date:
+            date: "01/09/2023"
+            day: "01"
+            month : "09"
+            year : "2023"
+        end_date:
+            date: "30/11/2023"
+            day: "30"
+            month: "11"
+            year: "2023"
+    sold_1: "0001003199"
+    sold_2: "0001011222"
+    sold_3: "0001007518"
+    sold_4: "0001010844"
+    sold_5: "0001002976"
+    sold_6: "0001002813"
+    sold_7: "0001002967"
+    sold_8: "0001009407"
+    sold_9: "0001003147"
+    sold_10: "0001003071"
+    create_date_1:
+        start_date:
+            date: "31/10/2023"
+            day: "31"
+            month : "10"
+            year : "2023"
+        end_date:
+            date: "30/11/2023"
+            day: "30"
+            month: "11"
+            year: "2023"
+    send_email:
+        to: eor_automate01@outlook.com
+        cc: paper_temp7@scg.com
+        message: Pending order list 
+        subject: Pending order list บจก. แมชเทค อินเตอร์เนชั่นแนล 
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+
+ph2_0007:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    sold_to_1: "0001003147"
+    sales: "ALL"
+    product_group_1: "K02: Ream"
+    product_group_2: "K04: Bag"
+    product_group_3: "K06: Slit"
+    po_no_1: "20112023"
+    so_no: "0411101378"
+    sold_1: "0001003199"
+    sold_2: "0001011222"
+    sold_3: "0001007518"
+    sold_4: "0001010844"
+    sold_5: "0001002976"
+    sold_6: "0001002813"
+    sold_7: "0001002967"
+    sold_8: "0001009407"
+    sold_9: "0001003147"
+    sold_10: "0001003071"
+    create_date:
+        start_date:
+            date: "01/09/2023"
+            day: "01"
+            month : "09"
+            year : "2023"
+        end_date:
+            date: "30/11/2023"
+            day: "30"
+            month: "11"
+            year: "2023"
+    create_date_2:
+        start_date:
+            date: "31/10/2023"
+            day: "31"
+            month : "10"
+            year : "2023"
+        end_date:
+            date: "30/11/2023"
+            day: "30"
+            month: "11"
+            year: "2023"
+    send_email:
+        to: eor_automate01@outlook.com
+        cc: paper_temp4@scg.com, paper_temp7@scg.com
+        message: ph2_0007
+        subject: Order Confirmation บจก. แมชเทค อินเตอร์เนชั่นแนล 
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+    attachment_file: OrderConfirmation
+
+cus_0001:
+    username: at_customer01@test.com
+    password: P@ssword2023
+    company_th: บจก. รวมไทยบรรจุภัณฑ์
+    contract: 0410089763
+    sold_to_name: 0001003199 - บจก. รวมไทยบรรจุภัณฑ์
+    product_1: KA-ConfiDenz335D-209 DIA117N      #mat81 UNPLANNED
+    quantity_product_1: 2
+    new_quantity_product_1: 1
+    product_2: CA- 105M-93 DIA110N               #mat82 TENTATIVE
+    quantity_product_2: 2  
+    new_quantity_product_2: 1
+    product_3: CA- 125D
+    sub_product_3_1: CA- 125D-93 / 36 INCH DIA117N     #mat84 PLANNED
+    quantity_sub_product_3_1: 2
+    new_quantity_sub_product_3_1: 1
+    sub_product_3_2: CA- 125D-108 / 42 INCH DIA117N    #mat84 PLANNED
+    quantity_sub_product_3_2: 2
+    new_quantity_sub_product_3_2: 1
+    expected_product_on_cart: "4"
+    no_product_before_last: "3"
+    order_no: autocus
+    new_product_1: KA-ConfiDenz335D-209 DIA117N      #mat81 UNPLANNED
+    new_product_2: CA- 105M-93 DIA110N               #mat82 TENTATIVE
+    quantity_add_new_item_1: 1
+    quantity_add_new_item_2: 1
+    comment_to_warehouse: texttowarehouse
+    comment_to_logistic: texttologistic
+    role: "Customer"
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: Z02CA-125D1080117N
+            material_desc: CA- 125D-108 / 42 INCH DIA117N 
+            quantity : '1'
+        item_no_20:
+            item_no: '20'
+            material_code: Z02KA-335D2090117N 
+            material_desc: KA-ConfiDenz335D-209 DIA117N
+            quantity: '1'
+        item_no_30:
+            item_no: '30'
+            material_code: Z02CA-105M0930110N
+            material_desc: CA- 105M-93 DIA110N
+            quantity: '1'
+
+cus_0002: 
+    username: at_customer02@test.com
+    password: P@ssword2023
+    company_th: บ.ไทรแองเกิลเวิลด์ไวด์ จำกัด
+    sold_to_code: '0001003535'
+    block_status: Z1
+
+cus_0005: 
+    username: doqa_temp1@scgp.co.th
+    password: qaeor#2023
+    company_th: บจก. รวมไทยบรรจุภัณฑ์
+    contract: 0410089763
+    sold_to_name: 0001003199 - บจก. รวมไทยบรรจุภัณฑ์
+    product_1: KA-ConfiDenz335D-209 DIA117N      #mat81 UNPLANNED
+    quantity_product_1: 2
+    new_quantity_product_1: 1
+    product_2: CA- 105M-93 DIA110N               #mat82 TENTATIVE
+    quantity_product_2: 2  
+    new_quantity_product_2: 1
+    product_3: CA- 125D
+    sub_product_3_1: CA- 125D-93 / 36 INCH DIA117N     #mat84 PLANNED
+    quantity_sub_product_3_1: 2
+    new_quantity_sub_product_3_1: 1
+    sub_product_3_2: CA- 125D-108 / 42 INCH DIA117N    #mat84 PLANNED
+    quantity_sub_product_3_2: 2
+    new_quantity_sub_product_3_2: 1
+    expected_product_on_cart: "4"
+    no_product_before_last: "3"
+    order_no: autocus
+    new_product_1: KA-ConfiDenz335D-209 DIA117N      #mat81 UNPLANNED
+    new_product_2: CA- 105M-93 DIA110N               #mat82 TENTATIVE
+    quantity_add_new_item_1: 1
+    quantity_add_new_item_2: 1
+    comment_to_warehouse: texttowarehouse
+    comment_to_logistic: texttologistic
+    role: "Customer"
+    preview_order:
+        item_no_10:
+            item_no: '10'
+            material_code: Z02CA-125D1080117N
+            material_desc: CA- 125D-108 / 42 INCH DIA117N 
+            quantity : '1'
+        item_no_20:
+            item_no: '20'
+            material_code: Z02KA-335D2090117N 
+            material_desc: KA-ConfiDenz335D-209 DIA117N
+            quantity: '1'
+        item_no_30:
+            item_no: '30'
+            material_code: Z02CA-105M0930110N
+            material_desc: CA- 105M-93 DIA110N
+            quantity: '1'   
+
+cus_0003:
+    username: at_customer03@test.com
+    password: P@ssword2023
+    company_th: บจก. สยามเปเปอร์แมนูแฟคเจอริ่ง.
+    contract: 0412283637
+    error_message: ไม่สามารถดำเนินการต่อได้ เนื่องจาก credit block
+
+cus_0004:
+    username: at_customer04@test.com
+    password: P@ssword2023
+    company_th: บจก. กลุ่มสยามบรรจุภัณฑ์-TCSP
+    contract: 0410089851
+    sold_to_name: 0001012115 - บจก. กลุ่มสยามบรรจุภัณฑ์-TCSP
+    product_1: CA- 125D-118 DIA117 N                               #item no error
+    product_2: CAF115D-90 DIA117N FSC Recycled 100%                #item error SAP
+    quantity_product_1: 1
+    quantity_product_2: 1
+    expected_product_on_cart: "2"
+    order_no: autocus
+    source_of_system: SAP
+    item_no: '20'
+    error_code: Z_EOR_ERR_ITM035
+    error_description: E35 :Material Z02CAF115D0900117N does not exist in plant 7521
+
+exp_0009:
+    account:
+        username: at_export01@test.com
+        password: P@ssword2023
+    initial:
+        eo_no: ""
+        contract: "0427960279"
+        division: "00"
+        sales_org: "0750"
+        order_type: ZOR
+        change_type: ""
+        sales_office: "0750"
+        contract_type: ZPI
+        create_and_change_type: ""
+        distribution_channel: "30"
+    header:
+        cc: skicexportcs@scg.com; thanidao@scg.com
+        eta: "23022024"
+        etd: "23022023"
+        uom: BAGS
+        po_no: UAT_EO_AUTOMATE_EXP0009
+        dlc_no: D-L/C No. test
+        gw_uom: TONS
+        payer: "0001027146"
+        usage: "100"
+        author: "90030320"
+        bill_to: "0001027146"
+        remark: "remark_header"
+        ship_to: "0001027146"
+        sold_to: "0001018027"
+        incoterms: CFR
+        sales_email: thanidao@scg.com
+        sales_group: "756"
+        description: Description / Description
+        doc_currency: USD
+        end_customer: ""
+        payment_term: TS00
+        shipping_mark: shippingMark
+        contract_person: "0000035469"
+        dlc_expiry_date: "30092023"
+        sales_employee: "10010240"
+        no_of_containers: No. of Containers , No. of Containers
+        unloading_point: Unloading Point
+        place_of_delivery: Houiseay
+        port_of_discharge: SINGAPORE, SINGAPORE
+        product_information: Production Information Production Information
+        payment_instruction: Payment Instruction / Payment Instruction
+        dlc_latest_delivery_date: "18092023"
+        internal_comment_to_warehouse: Internal Comments / Internal Comments
+    items:
+        item_01:
+            unit: TON
+            plant: ""
+            price: "500"
+            route: ""
+            remark: Remark_item_01
+            eo_item_no: "10"
+            pallet_no: "10-10"
+            item_cat_eo: ZKSO
+            item_cat_pi: ""
+            no_of_rolls: "75"
+            commission: "0"
+            pallet_size: "10"
+            ref_pi_stock: "ref000"
+            no_of_package: "75"
+            material_code: Z02KP-275E1000127N
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: USD
+            condition_group1: C3
+            packing_list_text: packingList_01
+            roll_diameter_inch: "127"
+            commission_percent: "0"
+            ream_roll_per_pallet: "0"
+            commission_currency: USD
+            roll_core_diameter_inch: "3"
+        item_02:
+            unit: EA
+            plant: ""
+            price: "0"
+            route: ""
+            remark: Remark_item_02
+            eo_item_no: "30"
+            pallet_no: "1-5"
+            item_cat_eo: ZKC0
+            item_cat_pi: ZAGN
+            no_of_rolls: "0"
+            commission: "0"
+            pallet_size: "10"
+            ref_pi_stock: "ref123"
+            no_of_package: "0"
+            material_code: Z02_CONTAINER40'H
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: EUR
+            condition_group1: "C3 1: Container 40' H"
+            packing_list_text: packingList_02
+            roll_diameter_inch: "0"
+            commission_percent: "0"
+            ream_roll_per_pallet: "0"
+            commission_currency: EUR
+            roll_core_diameter_inch: "0"
+        item_03:
+            unit: ROL
+            plant: "7533"
+            price: "570"
+            route: ""
+            remark: Remark_item_03
+            eo_item_no: "20"
+            pallet_no: "6-9"
+            item_cat_eo: ""
+            item_cat_pi: ""
+            no_of_rolls: "89"
+            commission: "20"
+            pallet_size: "10"
+            ref_pi_stock: "ref000"
+            no_of_package: "75"
+            material_code: Z02COU105E0950123N
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: EUR
+            condition_group1: C3
+            packing_list_text: packingList_03
+            roll_diameter_inch: "123"
+            commission_percent: "20"
+            ream_roll_per_pallet: "10"
+            commission_currency: EUR
+            roll_core_diameter_inch: "3"
+exp_0010:
+    account:
+        username: csexport_user01@test.com
+        password: P@ssw0rd
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+    initial:
+        eo_no: ""
+        contract: "0427960279"
+        division: "00"
+        sales_org: "0750"
+        order_type: ZOR
+        change_type: ""
+        sales_office: "0750"
+        contract_type: ZPI
+        create_and_change_type: ""
+        distribution_channel: "30"
+    header:
+        cc: skicexportcs@scg.com; thanidao@scg.com
+        eta: "23022024"
+        etd: "23022023"
+        uom: BAGS
+        po_no: UAT_EO_AUTOMATE_EXP0010
+        dlc_no: D-L/C No. test
+        gw_uom: TONS
+        payer: "0001027146"
+        usage: "100"
+        author: "90030320"
+        bill_to: "0001027146"
+        remark: "remark_header"
+        ship_to: "0001027146"
+        sold_to: "0001018027"
+        incoterms: CFR
+        sales_email: thanidao@scg.com
+        sales_group: "756"
+        description: Description / Description
+        doc_currency: USD
+        end_customer: ""
+        payment_term: TS00
+        shipping_mark: shippingMark
+        contract_person: "0000035469"
+        dlc_expiry_date: "30092023"
+        sales_employee: "10010240"
+        no_of_containers: No. of Containers , No. of Containers
+        unloading_point: Unloading Point
+        place_of_delivery: Houiseay
+        port_of_discharge: SINGAPORE, SINGAPORE
+        product_information: Production Information Production Information
+        payment_instruction: Payment Instruction / Payment Instruction
+        dlc_latest_delivery_date: "18092023"
+        internal_comment_to_warehouse: Internal Comments / Internal Comments
+    items:
+        item_01:
+            unit: TON
+            plant: "9999"
+            price: "500"
+            route: ""
+            remark: Remark_item_01
+            eo_item_no: "10"
+            pallet_no: "10-10"
+            item_cat_eo: ZKSO
+            item_cat_pi: ""
+            no_of_rolls: "75"
+            commission: "0"
+            pallet_size: "10"
+            ref_pi_stock: "ref000"
+            no_of_package: "75"
+            material_code: Z02KP-275E1000127N
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: USD
+            condition_group1: C3
+            packing_list_text: packingList_01
+            roll_diameter_inch: "127"
+            commission_percent: "0"
+            ream_roll_per_pallet: "0"
+            commission_currency: USD
+            roll_core_diameter_inch: "3"
+        item_02:
+            unit: EA
+            plant: ""
+            price: "0"
+            route: ""
+            remark: Remark_item_02
+            eo_item_no: "30"
+            pallet_no: "1-5"
+            item_cat_eo: ZKC0
+            item_cat_pi: ZAGN
+            no_of_rolls: "0"
+            commission: "0"
+            pallet_size: "10"
+            ref_pi_stock: "ref123"
+            no_of_package: "0"
+            material_code: Z02_CONTAINER40'H
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: EUR
+            condition_group1: "C3 1: Container 40' H"
+            packing_list_text: packingList_02
+            roll_diameter_inch: "0"
+            commission_percent: "0"
+            ream_roll_per_pallet: "0"
+            commission_currency: EUR
+            roll_core_diameter_inch: "0"
+        item_03:
+            unit: TON
+            plant: ""
+            price: "500"
+            route: ""
+            remark: Remark_item_01
+            eo_item_no: "10"
+            pallet_no: "10-10"
+            item_cat_eo: ZKSO
+            item_cat_pi: ""
+            no_of_rolls: "75"
+            commission: "0"
+            pallet_size: "10"
+            ref_pi_stock: "ref000"
+            no_of_package: "75"
+            material_code: Z02KP-275E1000127N
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: USD
+            condition_group1: C3
+            packing_list_text: packingList_01
+            roll_diameter_inch: "127"
+            commission_percent: "0"
+            ream_roll_per_pallet: "0"
+            commission_currency: USD
+            roll_core_diameter_inch: "3"
+
+exp_0012:
+    account:
+        username: csexport_user01@test.com
+        password: P@ssw0rd
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+    search: "99 SAP 001 Contract"
+    initial:
+        eo_no: ""
+        contract: "0427960279"
+        division: "00"
+        sales_org: "0750"
+        order_type: ZOR
+        change_type: ""
+        sales_office: "0750"
+        contract_type: ZPI
+        create_and_change_type: ""
+        distribution_channel: "30"
+    header:
+        cc: skicexportcs@scg.com; thanidao@scg.com
+        eta: "23022024"
+        etd: "23022023"
+        uom: BAGS
+        po_no: UAT_EO_AUTOMATE_EXP0012
+        dlc_no: D-L/C No. test
+        gw_uom: TONS
+        payer: "0001027146"
+        usage: "100"
+        author: "90030320"
+        bill_to: "0001027146"
+        remark: "remark_header"
+        ship_to: "0001027146"
+        sold_to: "0001018027"
+        incoterms: CFR
+        sales_email: thanidao@scg.com
+        sales_group: "756"
+        description: Description / Description
+        doc_currency: USD
+        end_customer: ""
+        payment_term: TS00
+        shipping_mark: shippingMark
+        contract_person: "0000035469"
+        dlc_expiry_date: "30092023"
+        sales_employee: "10010240"
+        no_of_containers: No. of Containers , No. of Containers
+        unloading_point: Unloading Point
+        place_of_delivery: Houiseay
+        port_of_discharge: SINGAPORE, SINGAPORE
+        product_information: Production Information Production Information
+        payment_instruction: Payment Instruction / Payment Instruction
+        dlc_latest_delivery_date: "18092023"
+        internal_comment_to_warehouse: Internal Comments / Internal Comments
+    items:
+        item_01:
+            unit: TON
+            plant: ""
+            price: "500"
+            route: ""
+            remark: Remark_item_01
+            eo_item_no: "10"
+            pallet_no: "10-10"
+            item_cat_eo: ZKSO
+            item_cat_pi: ""
+            no_of_rolls: "75"
+            commission: "0"
+            pallet_size: "10"
+            ref_pi_stock: "ref000"
+            no_of_package: "75"
+            material_code: Z02KP-275E1000127N
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: USD
+            condition_group1: C3
+            packing_list_text: packingList_01
+            roll_diameter_inch: "127"
+            commission_percent: "0"
+            ream_roll_per_pallet: "0"
+            commission_currency: USD
+            roll_core_diameter_inch: "3"
+        item_02:
+            unit: EA
+            plant: ""
+            price: "0"
+            route: ""
+            remark: Remark_item_02
+            eo_item_no: "30"
+            pallet_no: "1-5"
+            item_cat_eo: ZKC0
+            item_cat_pi: ZAGN
+            no_of_rolls: "0"
+            commission: "0"
+            pallet_size: "10"
+            ref_pi_stock: "ref123"
+            no_of_package: "0"
+            material_code: Z02_CONTAINER40'H
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: EUR
+            condition_group1: "C3 1: Container 40' H"
+            packing_list_text: packingList_02
+            roll_diameter_inch: "0"
+            commission_percent: "0"
+            ream_roll_per_pallet: "0"
+            commission_currency: EUR
+            roll_core_diameter_inch: "0"
+        item_03:
+            unit: ROL
+            plant: "7533"
+            price: "570"
+            route: ""
+            remark: Remark_item_03
+            eo_item_no: "99"
+            pallet_no: "6-9"
+            item_cat_eo: ""
+            item_cat_pi: ""
+            no_of_rolls: "89"
+            commission: "20"
+            pallet_size: "10"
+            ref_pi_stock: "ref000"
+            no_of_package: "75"
+            material_code: Z02COU105E0950123N
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: EUR
+            condition_group1: C3
+            packing_list_text: packingList_03
+            roll_diameter_inch: "123"
+            commission_percent: "20"
+            ream_roll_per_pallet: "10"
+            commission_currency: EUR
+            roll_core_diameter_inch: "3"
+
+exp_0004:
+    username: at_export04@test.com
+    password: P@ssword2023
+    sold_to: "0001006931"
+    pi_no: "0427960260"
+    po_no: "SO 046-18G"
+    sub_product_1: Z02KSF170T1100117N
+    quantity_sub_product_1: "1"
+    sub_product_2: Z02COU115E1090123N
+    quantity_sub_product_2: "1"
+    plant_2: "7533"
+    sub_product_3: Z02_CONTAINER40'H
+    quantity_sub_product_3: "1"
+    request_date: "01 / 04 / 2024"
+    request_date_2: "01/04/2024"
+    request_day: 01
+    request_month: 4
+    request_year: 2024
+    etd_date: "11 / 04 / 2024"
+    etd_day: 11
+    etd_month: 4
+    etd_year: 2024
+    eta_date: "09 / 01 / 2025"
+    eta_day: 9
+    eta_month: 1
+    eta_year: 2025
+    new_product: Z02CAI105E1250117N
+    new_product_quantity: "1"
+    new_product_item_no: "40"
+    company_name: "BINTANG PACKAGING INDUSTRIES(M)  SDN BHD"
+    port_of_discharge: port
+    plant: "PO41"
+
+exp_0011:
+    error_message_1: "10 IPlan"
+    error_message_2: "20 IPlan"
+    account:
+        username: csexport_user01@test.com
+        password: P@ssw0rd
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+    initial:
+        eo_no: ""
+        contract: "0427960260"
+        division: "00"
+        sales_org: "0750"
+        order_type: ZOR
+        change_type: ""
+        sales_office: "0750"
+        contract_type: ZPI
+        create_and_change_type: ""
+        distribution_channel: "30"
+    header:
+        cc: skicexportcs@scg.com; thanidao@scg.com
+        eta: "23022024"
+        etd: "23022023"
+        uom: BAGS
+        po_no: UAT_EO_AUTOMATE_EXP0011
+        dlc_no: D-L/C No. test
+        gw_uom: TONS
+        payer: "0001006931"
+        usage: "100"
+        author: "90030320"
+        bill_to: "0001006931"
+        remark: "remark_header"
+        ship_to: "0001006931"
+        sold_to: "0001006931"
+        incoterms: CFR
+        sales_email: thanidao@scg.com
+        sales_group: "756"
+        description: Description / Description
+        doc_currency: USD
+        end_customer: "0001019545"
+        payment_term: LC00
+        shipping_mark: shippingMark
+        contract_person: "0000014970"
+        dlc_expiry_date: "03032023"
+        sales_employee: "90007542"
+        no_of_containers: No. of Containers , No. of Containers
+        unloading_point: Unloading Point
+        place_of_delivery: Houiseay
+        port_of_discharge: SINGAPORE, SINGAPORE
+        product_information: Production Information Production Information
+        payment_instruction: Payment Instruction / Payment Instruction
+        dlc_latest_delivery_date: "04032023"
+        internal_comment_to_warehouse: Internal Comments / Internal Comments
+    items:
+        item_01:
+            unit: TON
+            plant: "PO03"
+            price: "500"
+            route: ""
+            remark: Remark_item_01
+            eo_item_no: "10"
+            pallet_no: "10-10"
+            item_cat_eo: ZKSO
+            item_cat_pi: ""
+            no_of_rolls: "75"
+            commission: "0"
+            pallet_size: "10"
+            ref_pi_stock: "ref000"
+            no_of_package: "75"
+            material_code: Z02KP-275E1000127N
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: USD
+            condition_group1: C3
+            packing_list_text: packingList_01
+            roll_diameter_inch: "127"
+            commission_percent: "0"
+            ream_roll_per_pallet: "0"
+            commission_currency: USD
+            roll_core_diameter_inch: "3"
+        item_02:
+            unit: TON
+            plant: "PO03"
+            price: "825"
+            route: ""
+            remark: Remark_item_02
+            eo_item_no: "20"
+            pallet_no: "1-5"
+            item_cat_eo: ""
+            item_cat_pi: ""
+            no_of_rolls: "0"
+            commission: "0"
+            pallet_size: "10"
+            ref_pi_stock: "ref123"
+            no_of_package: "75"
+            material_code: Z02KSF170T1100117N
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: USD
+            condition_group1: "C3 1: Container 40' H"
+            packing_list_text: packingList_02
+            roll_diameter_inch: "0"
+            commission_percent: "0"
+            ream_roll_per_pallet: "0"
+            commission_currency: USD
+            roll_core_diameter_inch: "3"
+
+exp_0013:
+    error_message_1: "SAP 154 Order receipt/delivery not possible,"
+    account:
+        username: csexport_user01@test.com
+        password: P@ssw0rd
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+    initial:
+        eo_no: ""
+        contract: "0410264339"
+        division: "00"
+        sales_org: "0750"
+        order_type: ZOR
+        change_type: ""
+        sales_office: "0750"
+        contract_type: ZPI
+        create_and_change_type: ""
+        distribution_channel: "30"
+    header:
+        cc: skicexportcs@scg.com; thanidao@scg.com
+        eta: "23022024"
+        etd: "23022023"
+        uom: BAGS
+        po_no: UAT_EO_AUTOMATE_EXP0013
+        dlc_no: D-L/C No. test
+        gw_uom: TONS
+        payer: "0001031042"
+        usage: "100"
+        author: "990010269"
+        bill_to: "0001031042"
+        remark: "remark_header"
+        ship_to: "0001031042"
+        sold_to: "0001031042"
+        incoterms: CFR
+        sales_email: thanidao@scg.com
+        sales_group: "756"
+        description: Description / Description
+        doc_currency: USD
+        end_customer: "0001019545"
+        payment_term: LC00
+        shipping_mark: shippingMark
+        contract_person: "0000130389"
+        dlc_expiry_date: "03032023"
+        sales_employee: "90007542"
+        no_of_containers: No. of Containers , No. of Containers
+        unloading_point: Unloading Point
+        place_of_delivery: Houiseay
+        port_of_discharge: SINGAPORE, SINGAPORE
+        product_information: Production Information Production Information
+        payment_instruction: Payment Instruction / Payment Instruction
+        dlc_latest_delivery_date: "04032023"
+        internal_comment_to_warehouse: Internal Comments / Internal Comments
+    items:
+        item_01:
+            unit: ROL
+            plant: ""
+            price: "570"
+            route: ""
+            remark: Remark_item_01
+            eo_item_no: "10"
+            pallet_no: "10-10"
+            item_cat_eo: ZKSO
+            item_cat_pi: ""
+            no_of_rolls: "75"
+            commission: "0"
+            pallet_size: "10"
+            ref_pi_stock: "ref000"
+            no_of_package: "75"
+            material_code: Z02KS-170T1200117N
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: THB
+            condition_group1: C3
+            packing_list_text: packingList_01
+            roll_diameter_inch: "127"
+            commission_percent: "0"
+            ream_roll_per_pallet: "0"
+            commission_currency: THB
+            roll_core_diameter_inch: "3"
+
+exp_0014:
+    error_message_1: "SAP 423"
+    account:
+        username: csexport_user01@test.com
+        password: P@ssw0rd
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+    initial:
+        eo_no: ""
+        contract: "0410250149"
+        division: "00"
+        sales_org: "0750"
+        order_type: ZOR
+        change_type: ""
+        sales_office: "0750"
+        contract_type: ZPI
+        create_and_change_type: ""
+        distribution_channel: "30"
+    header:
+        cc: skicexportcs@scg.com; thanidao@scg.com
+        eta: "23022024"
+        etd: "23022023"
+        uom: BAGS
+        po_no: UAT_EO_AUTOMATE_EXP0014
+        dlc_no: D-L/C No. test
+        gw_uom: TONS
+        payer: "0001003710"
+        usage: "100"
+        author: "90010179"
+        bill_to: "0001003710"
+        remark: "remark_header"
+        ship_to: "0001015354"
+        sold_to: "0001003710"
+        incoterms: CFR
+        sales_email: thanidao@scg.com
+        sales_group: "756"
+        description: Description / Description
+        doc_currency: USD
+        end_customer: "0001019545"
+        payment_term: LC00
+        shipping_mark: shippingMark
+        contract_person: "0000002702"
+        dlc_expiry_date: "03032023"
+        sales_employee: "90007542"
+        no_of_containers: No. of Containers , No. of Containers
+        unloading_point: Unloading Point
+        place_of_delivery: Houiseay
+        port_of_discharge: SINGAPORE, SINGAPORE
+        product_information: Production Information Production Information
+        payment_instruction: Payment Instruction / Payment Instruction
+        dlc_latest_delivery_date: "04032023"
+        internal_comment_to_warehouse: Internal Comments / Internal Comments
+    items:
+        item_01:
+            unit: ROL
+            plant: ""
+            price: "570"
+            route: ""
+            remark: Remark_item_01
+            eo_item_no: "40"
+            pallet_no: "10-10"
+            item_cat_eo: ZKSO
+            item_cat_pi: ""
+            no_of_rolls: "75"
+            commission: "0"
+            pallet_size: "10"
+            ref_pi_stock: "ref000"
+            no_of_package: "75"
+            material_code: Z02KS-170T0900117N
+            reject_reason: "NO"
+            order_quantity: "1"
+            price_currency: EUR
+            condition_group1: C3
+            packing_list_text: packingList_01
+            roll_diameter_inch: "127"
+            commission_percent: "0"
+            ream_roll_per_pallet: "0"
+            commission_currency: EUR
+            roll_core_diameter_inch: "3"
+
+exp_0016:
+    username: at_export05@test.com
+    password: P@ssword2023
+    material_no: Z02CAI090E0950117N
+    plant: 7550 - โรงงานบ้านโป่ง-16
+    customer_row: "10"
+
+dom_0007:
+    username: at_domestic01@test.com
+    password: P@ssword2023
+    sold_to: "0001003199"
+    contract: "0410089732"
+    product_1: CA- 105M-93 DIA110N            #mat81
+    product_1_quantity: "3"
+    product_2: "KS- 170D"                     #mat84
+    sub_product_2_1: KS- 170D-98 / 38 INCH DIA117 N
+    sub_product_2_1_quantity: "3"
+    sub_product_2_2: KS- 170D-103 / 40 INCH DIA117 N
+    sub_product_2_2_quantity: "3"
+    sub_product_2_3: KS- 170D-108 / 42 INCH DIA117 N
+    sub_product_2_3_quantity: "3"
+    sub_product_2_4: KS- 170D-113 / 44 INCH DIA117 N
+    sub_product_2_4_quantity: "3"
+    expected_product_on_cart: "5"
+    po_no: "0410089732"
+    preview_order:
+        item_10:
+            item_no: '10'
+            material_code: 'Z02CA-105M0930110N'
+            quantity: '3'
+            material_desc: 'CA- 105M-93 DIA110N'
+        item_20:
+            item_no: '20'
+            material_code: 'Z02KS-170D0980117N'
+            quantity: '3'
+            material_desc: 'KS- 170D-98 / 38 INCH DIA117 N'
+        item_30:
+            item_no: '30'
+            material_code: 'Z02KS-170D1030117N'
+            quantity: '3'
+            material_desc: 'KS- 170D-103 / 40 INCH DIA117 N'
+        item_40:
+            item_no: '40'
+            material_code: 'Z02KS-170D1080117N'
+            quantity: '3'
+            material_desc: 'KS- 170D-108 / 42 INCH DIA117 N'
+        item_50:
+            item_no: '50'
+            material_code: 'Z02KS-170D1130117N'
+            quantity: '3'
+            material_desc: 'KS- 170D-113 / 44 INCH DIA117 N'
+    edit_order:
+        item_10:
+            item_no: '10'
+        item_20:
+            item_no: '20'
+        item_30:
+            item_no: '30'
+        item_40:
+            item_no: '40'
+        item_50:
+            item_no: '50'
+    received_order:
+        item_10:
+            operation_status: "Allocated"
+            warehouse_code: "7531"
+        item_30:
+            operation_status: "Allocated"
+            warehouse_code: "PO41"
+        item_40:
+            operation_status: "Trimmed"
+            warehouse_code: "PO41"
+        item_50:
+            reatp_quantity: '2'
+            reatp_status: "Partially Assigned"
+            operation_status: "Completed"
+            warehouse_code: "PO41"
+        order_status: "Received Order"
+    partial_committed_order:
+        item_10:
+            operation_status: "Allocated"
+            warehouse_code: "7531"
+        item_30:
+            operation_status: "Allocated"
+            warehouse_code: "PO41"
+        item_40:
+            operation_status: "Trimmed"
+            warehouse_code: "PO41"
+        item_50:
+            reatp_status: "Fully Assigned"
+            operation_status: "Completed"
+            warehouse_code: "PO41"
+        order_status: "Partial Committed Order"
+    Full_committed_order:
+        item_10:
+            reatp_status: "Fully Assigned"
+            operation_status: "Completed"
+            warehouse_code: "7531"
+        item_30:
+            reatp_status: "Fully Assigned"
+            operation_status: "Completed"
+            warehouse_code: "PO41"
+        item_40:
+            reatp_status: "Fully Assigned"
+            operation_status: "Completed"
+            warehouse_code: "PO41"
+        item_50:
+            reatp_status: "Fully Assigned"
+            operation_status: "Completed"
+            warehouse_code: "PO41"
+        order_status: "Full Committed Order"
+    Cancel_93:
+        order_status: "Cancelled (93)"
+        
+exp_0005:
+    username: at_export05@test.com
+    password: P@ssword2023
+    sold_to: "0001006931"
+    pi_no: "0427960260"
+    po_no: "automate01"
+    eo_no: "0411100303"
+    so_no: "automate01"
+    sub_product_1: Z02KSF170T1100117N
+    quantity_sub_product_1: "1"
+    sub_product_2: Z02COU115E1090123N
+    quantity_sub_product_2: "1"
+    plant_2: "7533"
+    sub_product_3: Z02_CONTAINER40'H
+    quantity_sub_product_3: "1"
+    start_date: "01 / 10 / 2023"
+    start_day: 1
+    start_month: 10
+    start_year: 2023
+    end_date: "09 / 10 / 2023"
+    end_day: 30
+    end_month: 10
+    end_year: 2023
+    request_date: "01 / 06 / 2024"
+    request_date_2: "01/06/2024"
+    request_day: 01
+    request_month: 6
+    request_year: 2024
+    etd_date: "29 / 01 / 2024"
+    etd_day: 29
+    etd_month: 1
+    etd_year: 2024
+    eta_date: "09 / 01 / 2025"
+    eta_day: 9
+    eta_month: 1
+    eta_year: 2025
+    new_product: Z02CAI105E1250117N
+    new_product_quantity: "1"
+    new_product_item_no: "40"
+    company_name: "BINTANG PACKAGING INDUSTRIES(M)  SDN BHD"
+    port_of_discharge: port
+    plant: "PO41"
+
+cus_0006:
+    account :
+        username: at_customer01@test.com
+        password: P@ssword2023
+        company_th: บจก. รวมไทยบรรจุภัณฑ์
+        domestic_username: csdomestic_user01@test.com
+        domestic_password: P@ssw0rd
+    pop_up_success :
+        text: การอัพโหลดไฟล์สำเร็จ
+    email_account:
+        email: eor_automate01@outlook.com
+        password: EORautomate01
+
+    email_box:
+        email_header: Order upload
+    file_content :
+        header : 
+            header_flag: "H"
+            contract_no: "0410089763"
+            sold_to: "0001003199"
+            ship_to: "0001012421       "
+            bill_to: "0001003199"
+            payer: "0001003199"
+            incoterms1: "CFR"
+        items :
+            item_flag: "I"
+            item_01:
+                item_no: "10    "
+                item1: "Z02CA-105M0930110N                 "
+                name: "                                        "
+                order_qty: "1             "
+                order_unit: "ROL"
+            item_02:
+                item_no: "20    "
+                item2: "Z02KA-335D2090117N                 "
+                name: "                                        "
+                order_qty: "1             "
+                order_unit: "ROL"
+            item_03:
+                item_no: "30    "
+                item3: "Z02CA-125D0930117N                 "
+                name: "                                        "
+                order_qty: "1             "
+                order_unit: "ROL"
+dom_00018:
+  username: at_domestic01@test.com
+  password: P@ssword2023
+  sales: "ALL"
+  sold_to: "0001011222"
+  fromdate: Subtract Time From Date |${todate} |1day|result_format=%d-%m-%y
+  todate: Get Current Date    result_format=%d-%m-%y
+  po_no: "LMS1"
+  so_no: "0411104794"
+  mat_no: "Z02CA-125D0930117N"
+  so_no1: "0411104486"
+  so_no2: "0411104795"
+  so_no3: "0411104883"
+  so_no4: "0411104488"
+  so_no5: "0411104489"
+  so_no6: "0411104798"
+  so_no7: "0411104774"
+  so_no8: "0411104496"
+  so_no9: "0411104501"
+  so_no10: "0411104502"
+  so_no11: "0411104503"
+  so_no12: "0412130677"
+  so_no13: "0411104490"
+  so_no14: "0411104491"
+  so_no15: "0411104492"
+  so_no16: "0411104493"
+  so_no17: "0411104494"
+  so_no18: "0411104495"
+  so_no19: "0411104505"
+  so_no20: "0411104506"

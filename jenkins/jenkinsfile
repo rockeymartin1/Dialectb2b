@@ -1,0 +1,77 @@
+pipeline {
+    agent { label 'mac_server_01-CICD'}
+    environment {
+      COMPANY_ID = 'aa2fca2a-cdf4-4f32-bfdf-af64e8c13ce9'
+      TYPE = 'robot'
+      AUTOMATED_VERSION='0.0.1'
+      APP_VERSION='0.0.1'
+   }
+    post {
+        always {
+            sleep 5
+            script {
+                try{
+                    sh "docker stop hagrid_$BUILD_NUMBER"
+                    sh "docker rm -f hagrid_$BUILD_NUMBER"
+                    echo "removed container hagrid_$BUILD_NUMBER"
+                }
+                catch(err){
+                    echo "error while stopiing hargrid container"
+                }
+            }
+            echo "Clean Workspace"
+            cleanWs(cleanWhenNotBuilt: false,
+                deleteDirs: true,
+                disableDeferredWipeout: true,
+                notFailBuild: true,
+                cleanWhenAborted: true,
+                cleanWhenFailure: true,
+                cleanWhenSuccess: true,
+                cleanWhenUnstable: true
+            )
+        }
+    }
+    stages {
+        stage('Run test with retry') {
+            steps {
+                script {
+                        RUN_VARIABLES = '-d report -v headless:True -e wip -v env:' + ENVIRONMENT
+                        echo RUN_VARIABLES
+                        common = load "./jenkins/common/doppio_ci_common.groovy"
+                        common.web_run_test_with_retry("/testcases",
+                                                        INCLUDE,
+                                                        ROBOT_THREADS,
+                                                        RUN_VARIABLES,
+                                                        HAGRID_VERSION)   
+                    }//end script
+                }//end steps
+            post {
+                always {
+                        echo "Publish Robot Framework test results"
+                        robot(
+                                outputPath: 'reports',
+                                outputFileName: 'output.xml',
+                                reportFileName: 'report.html',
+                                logFileName: 'log.html',
+                                disableArchiveOutput: false,
+                                passThreshold: 100.0,
+                                unstableThreshold: 100.0,
+                                otherFiles: '*.png,*.jpg',
+                                onlyCritical: false
+                            )
+                        script {
+                            if (GIT_BRANCH == 'master' || GIT_BRANCH == 'main' || GIT_BRANCH == 'origin/master' || GIT_BRANCH == 'origin/main' || GIT_BRANCH == 'origin/sit') {        
+                                common.report_sender()
+                                common.notify_result_to_dumbledore_v2("${WORKSPACE}/reports/report.html","${WORKSPACE}/reports/output.xml")
+                                common.notify_result_to_slack("#scg_project")
+                                common.notify_result_to_line("dBLmodqxnE7M63TTOX1iBEZ2wj6H5rFlbNhTpsvHpTU")
+                                common.notify_result_to_ms_teams("https://scgo365.webhook.office.com/webhookb2/c0ac91f2-6ea2-4d96-a722-3d28f7ae7b77@5db8bf0e-8592-4ed0-82b2-a6d4d77933d4/IncomingWebhook/2fae6f06b92d4fb7a9aaac582611269b/39a73767-990b-400c-9220-b4b84cd43f72")
+                            }else{
+                                common.notify_result_to_slack("#scg_automation_cicd_result")
+                            }
+                        }// end script
+                }//end always
+            }//end post
+        }//end stage run test        
+    }//end stages
+}// end pipeline

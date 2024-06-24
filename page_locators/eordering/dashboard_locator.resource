@@ -1,0 +1,13 @@
+*** Variable ***
+${DASHBOARD.QUOTE.CREATE.BUTTON}                               //div[@class='create-qoute-btn']
+# ${DASHBOARD.MY_CONTRACT.BUTTON}                             //div[text()="My Contract"]
+# ${DASHBOARD.REQUIRED_ATTENTION.BUTTON}                      //button[span[div[text()="Required Attention"]]]
+# ${DASHBOARD.MAINTAIN.BUTTON}                                //button/span/div[text()="Maintain"]
+# ${DASHBOARD.MAINTAIN.USER_MANAGEMENT.BUTTON}                //li/div[text()="User Management"]
+# ${DASHBOARD.MAINTAIN.PO_UPLOAD.BUTTON}                      //button[span[div[text()="PO Upload"]]]
+${DASHBOARD.INQUIRY.BUTTON}                                 //div[text()="Inquiry"]
+${DASHBOARD.INQUIRY_STOCK_ON-HAND.BUTTON}                   //div[text()="Stock on-hand"]
+${DASHBOARD.MAINTAIN.PO_UPLOAD.BUTTON}                        //button[span[div[text()="PO Upload"]]]
+${DASHBOARD.CUSTOMER_BLOCK.TXT}                               //div[text()="ไม่สามารถทำรายการได้ กรุณาติดต่อผู้ดูแลระบบ"]
+${DASHBOARD.CUSTOMER_BLOCK.CLOSE.BUTTON}                      //button[span[text()="ปิด"]]
+${DASHBOARD.INQUIRY.PENDING_ORDER.BUTTON}                     //div[text()="รายการใบสั่งซื้อค้างส่ง (Pending Order)"]
